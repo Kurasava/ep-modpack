@@ -1,0 +1,7 @@
+package kurasava.ep.epmodpack;
+
+public class App {
+    public static void main(String[] args) {
+        Main.main(args);
+    }
+}

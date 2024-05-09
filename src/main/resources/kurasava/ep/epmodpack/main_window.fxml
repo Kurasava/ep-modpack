@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="root" focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="297.0" prefWidth="474.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kurasava.ep.epmodpack.Controller">
+    <Button fx:id="buttonInstall" layoutX="158.0" layoutY="250.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="145.0" stylesheets="@style.css" text="Install" />
+    <CheckBox fx:id="checkBoxAddServers" contentDisplay="RIGHT" layoutX="159.0" layoutY="211.0" mnemonicParsing="false" selected="true" stylesheets="@style.css" text="Add EP servers" textAlignment="CENTER" />
+    <Button fx:id="buttonSelectDirectory" layoutX="422.0" layoutY="163.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" stylesheets="@style.css" text="..." />
+    <TextField fx:id="textFieldDirectory" layoutX="90.0" layoutY="163.0" prefHeight="28.0" prefWidth="326.0" stylesheets="@style.css" />
+    <Label layoutX="17.0" layoutY="163.0" prefHeight="34.0" prefWidth="66.0" stylesheets="@style.css" text="Location:" />
+    <Label layoutX="17.0" layoutY="116.0" prefHeight="34.0" prefWidth="100.0" stylesheets="@style.css" text="Optional mods:" />
+    <Button fx:id="buttonOptionalMods" layoutX="127.0" layoutY="116.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="36.0" stylesheets="@style.css" text="..." textAlignment="CENTER" />
+    <Label layoutX="19.0" layoutY="67.0" prefHeight="34.0" prefWidth="128.0" stylesheets="@style.css" text="Minecraft version:" textAlignment="CENTER" />
+    <MenuButton fx:id="menuButtonVersions" layoutX="146.0" layoutY="67.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="311.0" stylesheets="@style.css">
+        <items>
+            <MenuItem mnemonicParsing="false" text="1.20.4" />
+            <MenuItem mnemonicParsing="false" text="1.20.3" />
+            <MenuItem mnemonicParsing="false" text="1.20.2" />
+            <MenuItem mnemonicParsing="false" text="1.20.1" />
+        </items>
+    </MenuButton>
+   <Pane fx:id="header" onMouseDragged="#setLocationWindow" onMousePressed="#getLocationWindow" prefHeight="50.0" prefWidth="474.0">
+       <Button layoutX="430.0" layoutY="10.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="30.0" text="X" />
+       <Button layoutX="390.0" layoutY="10.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="30.0" text="_" />
+      <ImageView fitHeight="34.0" fitWidth="36.0" layoutX="8.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+             <Image url="@images/icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="54.0" layoutY="17.0" text="EPModpack installer">
+         <font>
+            <Font name="Inter Regular" size="14.0" />
+         </font>
+      </Label>
+      <Line endX="474.0" layoutY="50.0" stroke="#8a8a8a" />
+   </Pane>
+</Pane>
