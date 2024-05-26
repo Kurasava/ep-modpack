@@ -9,7 +9,7 @@
         <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="6.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
             <Image url="@images/icon-64px.png" />
         </ImageView>
-        <Label layoutX="49.0" layoutY="3.0" prefHeight="34.0" prefWidth="154.0" styleClass="label-header" text="Modpack installer" />
+        <Label layoutX="49.0" layoutY="3.0" prefHeight="34.0" prefWidth="154.0" styleClass="label-header" text="Modpack installer 0.1" />
         <Button fx:id="hideApp" focusTraversable="false" layoutX="378.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="48.0" styleClass="button-hide" />
         <Button fx:id="closeApp" focusTraversable="false" layoutX="426.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="48.0" styleClass="button-exit" />
     </Pane>
