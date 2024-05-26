@@ -1,0 +1,44 @@
+[
+  {
+    "name": "EP",
+    "hidden": false,
+    "acceptTextures": true,
+    "preventsChatReports": true,
+    "ip": "mc.epserv.ru"
+  },
+  {
+    "name": "EP EKB",
+    "hidden": false,
+    "acceptTextures": true,
+    "preventsChatReports": true,
+    "ip": "ekb.mc.epserv.ru"
+  },
+  {
+    "name": "EP MSK",
+    "hidden": false,
+    "acceptTextures": true,
+    "preventsChatReports": true,
+    "ip": "msk.mc.epserv.ru"
+  },
+  {
+    "name": "EP FRA",
+    "hidden": false,
+    "acceptTextures": true,
+    "preventsChatReports": true,
+    "ip": "fra.mc.epserv.ru"
+  },
+  {
+    "name": "EP HEL",
+    "hidden": false,
+    "acceptTextures": true,
+    "preventsChatReports": true,
+    "ip": "hel.mc.epserv.ru"
+  },
+  {
+    "name": "EP RAKNET",
+    "hidden": false,
+    "acceptTextures": true,
+    "preventsChatReports": true,
+    "ip": "raknet;raknet.msk.mc.epserv.ru"
+  }
+]

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane focusTraversable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="474.0" styleClass="main-pane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kurasava.ep.epmodpack.controllers.ControllerMods">
+    <Pane fx:id="header" onMouseDragged="#setLocationWindow" onMousePressed="#getLocationWindow" prefHeight="40.0" prefWidth="474.0" styleClass="header-pane">
+
+        <Label layoutX="189.0" layoutY="3.0" prefHeight="34.0" prefWidth="154.0" styleClass="label-header" text="Choose mods" />
+        <Button fx:id="hideApp" focusTraversable="false" layoutX="378.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="48.0" styleClass="button-hide" />
+        <Button fx:id="closeApp" focusTraversable="false" layoutX="426.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="48.0" styleClass="button-exit" />
+        <Button fx:id="backToMain" focusTraversable="false" mnemonicParsing="false" prefHeight="39.0" prefWidth="48.0" styleClass="button-back" />
+    </Pane>
+    <ScrollPane layoutY="40.0" prefHeight="560.0" prefWidth="474.0" styleClass="scroll-pane-mods" stylesheets="@style.css">
+        <Pane fx:id="content" prefHeight="1730.0" prefWidth="459.0">
+
+            <CheckBox text="advancementinfo" layoutX="10.0" layoutY="10.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="18.0" mouseTransparent="true" prefHeight="74.0" prefWidth="343.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="AdvancementInfo" />
+                <Text styleClass="mod-description" text=" - mod will enlarge the advancements info UI, so it'll use most of your screen, especially when your GUI scale is high." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="20.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/advancement-info.png" />
+            </ImageView>
+
+            <CheckBox text="appleskin" layoutX="10.0" layoutY="96.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="104.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="AppleSkin" />
+                <Text styleClass="mod-description" text=" - mod that adds various food-related HUD improvements." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="106.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/apple-skin.png" />
+            </ImageView>
+
+            <CheckBox text="betterstatisticsscreen" layoutX="10.0" layoutY="182.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="190.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="Better Statistics Screen" />
+                <Text styleClass="mod-description" text=" - mod that replaces the usual statistics screen with a new one with more useful features." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="192.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/better-statistics-screen.png" />
+            </ImageView>
+
+            <CheckBox text="bobby" layoutX="10.0" layoutY="268.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="276.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="Bobby" />
+                <Text styleClass="mod-description" text=" - mod which allows for render distances greater than the server's view-distance setting." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="278.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/bobby.png" />
+            </ImageView>
+
+            <CheckBox text="chatheads" layoutX="10.0" layoutY="354.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="362.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="Chat Heads" />
+                <Text styleClass="mod-description" text=" - mod that adds player heads next to chat messages. It makes telling various people in chat apart a bit easier, and it looks hella nice." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="364.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/chat-heads.png" />
+            </ImageView>
+
+            <CheckBox text="clickthrough" layoutX="10.0" layoutY="440.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="448.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="ClickThrough" />
+                <Text styleClass="mod-description" text=" - mod that helps you access containers (chests, shulker boxes, barrels ...) that are marked with a sign or item frame." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="450.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/click-through.png" />
+            </ImageView>
+
+            <CheckBox text="continuity" layoutX="10.0" layoutY="526.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="534.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="Continuity" />
+                <Text styleClass="mod-description" text=" - mod built around modern APIs to allow for the most efficient connected textures experience possible." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="536.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/continuity.png" />
+            </ImageView>
+
+            <CheckBox text="fastquit" layoutX="10.0" layoutY="612.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="620.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="FastQuit" />
+                <Text styleClass="mod-description" text=" - mod that  lets you return to the title screen early while your world is still saving in the background." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="622.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/fast-quit.png" />
+            </ImageView>
+
+            <CheckBox text="infinitemusic" layoutX="10.0" layoutY="698.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="706.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="Infinite Music" />
+                <Text styleClass="mod-description" text=" - mod that removing the delay between music tracks, allowing for immersive musical journey throughout your adventures." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="708.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/infinite-music.png" />
+            </ImageView>
+
+            <CheckBox text="jade" layoutX="10.0" layoutY="784.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="792.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="Jade" />
+                <Text styleClass="mod-description" text=" - information HUD mod - Hwyla/Waila for modern Minecraft versions. Designed for better user experience and API." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="794.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/jade.png" />
+            </ImageView>
+
+            <CheckBox text="lambdynamiclights" layoutX="10.0" layoutY="870.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="878.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="LambDynamicLights" />
+                <Text styleClass="mod-description" text=" - mod that adds dynamic lights by an entity holding an item which makes light as a block, or created by an entity on fire." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="880.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/lambdynamiclights.png" />
+            </ImageView>
+
+            <CheckBox text="languagereloaded" layoutX="10.0" layoutY="956.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="964.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="Language Reload" />
+                <Text styleClass="mod-description" text=" - mod that quality of life changes related to languages." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="966.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/language-reload.png" />
+            </ImageView>
+
+            <CheckBox text="litematica" layoutX="10.0" layoutY="1042.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="1050.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="Litematica" />
+                <Text styleClass="mod-description" text=" - mod that adds advanced schematic tools for importing, exporting, and editing structures with precision." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="1052.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/litematica.png" />
+            </ImageView>
+
+            <CheckBox text="nvidium" layoutX="10.0" layoutY="1128.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="1136.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="Nvidium" />
+                <Text styleClass="mod-description" text=" - mod that replaces the rendering for sodium that uses nvidia only opengl extensions to increase fps by a significant amount." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="1138.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/nvidium.png" />
+            </ImageView>
+
+            <CheckBox text="raknetify" layoutX="10.0" layoutY="1214.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="1222.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="Raknetify" />
+                <Text styleClass="mod-description" text=" - mod that uses RakNet to improve multiplayer experience significantly under unreliable and rate-limited connections." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="1224.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/raknetify.png" />
+            </ImageView>
+
+            <CheckBox text="shulkerboxtooltip" layoutX="10.0" layoutY="1300.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="1308.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="Shulker Box Tooltip" />
+                <Text styleClass="mod-description" text=" - mod that allows you to see a preview window of a shulker box contents when hovering above it in an inventory." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="1310.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/shulker-box-tooltip.png" />
+            </ImageView>
+
+            <CheckBox text="skinlayers3d" layoutX="10.0" layoutY="1386.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="1394.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="3D Skin Layers" />
+                <Text styleClass="mod-description" text=" - mod that replaces the usually flat second layer of player skins with a 3d modeled version." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="1396.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/3d-skin-layers.png" />
+            </ImageView>
+
+            <CheckBox text="stendhal" layoutX="10.0" layoutY="1472.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="1480.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="Stendhal" />
+                <Text styleClass="mod-description" text=" - mod that offering new and enhanced visual utilities for books, signs, anvil and the in-game chat." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="1482.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/stendhal.png" />
+            </ImageView>
+
+            <CheckBox text="xaerosminimap" layoutX="10.0" layoutY="1558.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="1566.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="Xaero's Minimap" />
+                <Text styleClass="mod-description" text=" - mod that adds a minimap close to vanilla Minecraft." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="1568.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/xaeros.png" />
+            </ImageView>
+
+            <CheckBox text="xaerosworldmap" layoutX="10.0" layoutY="1644.0" prefHeight="76.0" prefWidth="438.0" styleClass="check-box-mod" stylesheets="@style.css" />
+            <TextFlow layoutX="96.0" layoutY="1652.0" mouseTransparent="true" prefHeight="74.0" prefWidth="327.0" stylesheets="@style.css">
+                <Text styleClass="mod-description-first-word" text="Xaero's World Map" />
+                <Text styleClass="mod-description" text=" - mod that adds a world map close to vanilla Minecraft." />
+            </TextFlow>
+            <ImageView fitHeight="55.0" fitWidth="55.0" layoutX="20.0" layoutY="1654.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" styleClass="mod-image">
+                <Image url="@images/mod-icons/xaeros.png" />
+            </ImageView>
+
+        </Pane>
+    </ScrollPane>
+</Pane>
