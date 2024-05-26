@@ -1,3 +1,8 @@
+@font-face {
+    -fx-font-family: "Inter-custom";
+    src: url(Inter-Regular.ttf);
+}
+
 .main-pane {
     -fx-background-color: #2e2e2e;
     -fx-background-radius: 5px;
@@ -39,33 +44,37 @@
 }
 
 .label-header {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter-custom';
     -fx-text-fill: white;
     -fx-font-size: 16px;
 }
 
 .label-versions {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter-custom';
     -fx-text-fill: white;
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
 }
 
 .label-mods {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter-custom';
     -fx-text-fill: white;
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
 }
 
 .label-location {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter-custom';
     -fx-text-fill: white;
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
 }
 
 .label-add-servers {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter-custom';
     -fx-text-fill: white;
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
 }
 
 .button-hide {
@@ -129,9 +138,10 @@
     -fx-background-color: #33A77D;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter-custom';
     -fx-text-fill: white;
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
 }
 
 .button-versions:disabled {
@@ -142,9 +152,10 @@
     -fx-background-color: #272727;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: "Inter";
+    -fx-font-family: "Inter-custom";
     -fx-text-fill: white;
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
 }
 
 .button-versions-text:disabled {
@@ -162,8 +173,9 @@
 }
 
 .context-menu-versions-item {
-    -fx-font-family: "Inter";
+    -fx-font-family: "Inter-custom";
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
     -fx-accent: #33A77D;
     -fx-pref-width: 100px;
 }
@@ -177,9 +189,10 @@
     -fx-background-color: #33A77D;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter-custom';
     -fx-text-fill: white;
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
 }
 
 .button-mods:disabled {
@@ -194,9 +207,10 @@
     -fx-background-color: #33A77D;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter-custom';
     -fx-text-fill: white;
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
 }
 
 .button-location:disabled {
@@ -211,18 +225,20 @@
     -fx-background-color: #33A77D;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter-custom';
     -fx-text-fill: white;
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
 }
 
 .button-install:disabled {
     -fx-background-color: #505050;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter-custom';
     -fx-text-fill: white;
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
 }
 
 .button-install:hover {
@@ -234,9 +250,10 @@
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
     -fx-border-color: transparent;
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter-custom';
     -fx-text-fill: white;
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
     -fx-accent: #33A77D;
 }
 
@@ -246,9 +263,10 @@
     -fx-border-color: #33A77D;
     -fx-border-width: 2px;
     -fx-border-radius: 6px;
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter-custom';
     -fx-text-fill: white;
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
 }
 
 .check-box-add-servers:disabled .box,
@@ -287,15 +305,17 @@
 }
 
 .mod-description {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter-custom';
     -fx-fill: white;
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
 }
 
 .mod-description-first-word {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter-custom';
     -fx-fill: #ffdd00;
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
 }
 
 .mod-image {
@@ -323,9 +343,10 @@
 }
 
 .label-progress {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter-custom';
     -fx-text-fill: white;
     -fx-font-size: 15px;
+    -fx-font-weight: normal;
     -fx-pref-width: 300px;
     -fx-text-alignment: center;
 }
