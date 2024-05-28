@@ -22,6 +22,7 @@ tasks.withType<JavaCompile> {
 application {
     mainModule = "kurasava.ep.epmodpack"
     mainClass = "${mainModule.get()}.AppKt"
+    applicationDefaultJvmArgs = listOf("-Xmx256m")
 }
 
 val javafxVersion = project.property("javafx_version").toString()
