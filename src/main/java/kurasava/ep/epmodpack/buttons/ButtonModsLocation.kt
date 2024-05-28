@@ -27,30 +27,28 @@ class ButtonModsLocation(
 
 
     private fun getDefaultDir(): Path {
-        var dir: Path
-
-        if (OperatingSystem.CURRENT == OperatingSystem.WINDOWS && System.getenv("APPDATA") != null) {
-            dir = Paths.get(System.getenv("APPDATA")).resolve(".minecraft")
-        } else {
-            val home = System.getProperty("user.home", ".")
-            val homeDir = Paths.get(home)
-
-            if (OperatingSystem.CURRENT == OperatingSystem.MACOS) {
+        val homeDir = Paths.get(System.getProperty("user.home", "."))
+        var dir: Path = homeDir.resolve(".minecraft")
+        when (OperatingSystem.CURRENT) {
+            OperatingSystem.WINDOWS -> {
+                if (System.getenv("APPDATA") != null) {
+                    dir = Paths.get(System.getenv("APPDATA")).resolve(".minecraft")
+                }
+            }
+            OperatingSystem.MACOS -> {
                 dir = homeDir.resolve("Library").resolve("Application Support").resolve("minecraft")
-            } else {
-                dir = homeDir.resolve(".minecraft")
+            }
+            OperatingSystem.LINUX -> {
+                val flatPack = homeDir.resolve(".var")
+                    .resolve("app")
+                    .resolve("com.mojang.Minecraft")
+                    .resolve(".minecraft")
 
-                if (OperatingSystem.CURRENT == OperatingSystem.LINUX && !Files.exists(dir)) {
-                    val flatPack =
-                        homeDir.resolve(".var").resolve("app").resolve("com.mojang.Minecraft").resolve(".minecraft")
-
-                    if (Files.exists(flatPack)) {
-                        dir = flatPack
-                    }
+                if (Files.exists(flatPack)) {
+                    dir = flatPack
                 }
             }
         }
-
         return dir.toAbsolutePath().normalize()
     }
 
