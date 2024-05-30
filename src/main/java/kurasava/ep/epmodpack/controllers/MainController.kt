@@ -8,7 +8,6 @@ import javafx.scene.layout.Pane
 import kurasava.ep.epmodpack.buttons.*
 
 class MainController : Controller() {
-
     @FXML
     lateinit var checkBoxAddServers: CheckBox
 
@@ -42,7 +41,6 @@ class MainController : Controller() {
     @FXML
     lateinit var buttonInstall: Button
 
-
     override fun initialize() {
         super.initialize()
 
@@ -60,8 +58,9 @@ class MainController : Controller() {
             buttonMods,
             hideApp,
             closeApp,
-            main
+            main,
         )
+
         main.setOnMouseClicked {
             main.requestFocus()
         }

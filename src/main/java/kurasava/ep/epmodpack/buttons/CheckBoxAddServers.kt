@@ -10,7 +10,6 @@ import org.json.JSONObject
 import java.nio.file.Path
 
 class CheckBoxAddServers(checkBox: CheckBox, private val main: Pane) {
-
     init {
         checkBox.setOnMouseClicked {
             main.requestFocus()
@@ -48,5 +47,4 @@ class CheckBoxAddServers(checkBox: CheckBox, private val main: Pane) {
             }
         }
     }
-
 }

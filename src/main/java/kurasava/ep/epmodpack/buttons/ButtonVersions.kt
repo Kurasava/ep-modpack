@@ -6,7 +6,6 @@ import javafx.scene.control.MenuItem
 import javafx.scene.layout.Pane
 
 class ButtonVersions(private val versionPreview: Button, private val button: Button, private val main: Pane) {
-
     private val contextMenu = ContextMenu()
 
     init {

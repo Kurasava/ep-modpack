@@ -40,8 +40,10 @@ abstract class Controller {
 
     private fun hideOrClose(button: MouseButton, hide: Boolean) {
         if (button != MouseButton.PRIMARY) return
+
         val stage = header.scene.window as Stage
         if (hide) stage.isIconified = true else stage.close()
+
         stage.iconifiedProperty().addListener { _, _, isNowMinimized ->
             if (!isNowMinimized) {
                 hideApp.style = ""

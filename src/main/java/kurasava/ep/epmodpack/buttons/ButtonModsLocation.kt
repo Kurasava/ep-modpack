@@ -12,9 +12,8 @@ import java.nio.file.Paths
 class ButtonModsLocation(
     button: Button,
     private val textFieldDirectory: TextField,
-    private val main: Pane
+    private val main: Pane,
 ) {
-
     init {
         textFieldDirectory.text = getDefaultDir().toString()
         button.setOnMouseClicked {
@@ -24,7 +23,6 @@ class ButtonModsLocation(
             if (selectedDirectory != null) textFieldDirectory.text = selectedDirectory.absolutePath
         }
     }
-
 
     private fun getDefaultDir(): Path {
         val homeDir = Paths.get(System.getProperty("user.home", "."))
@@ -55,7 +53,8 @@ class ButtonModsLocation(
     enum class OperatingSystem {
         WINDOWS,
         MACOS,
-        LINUX;
+        LINUX,
+        ;
 
         companion object {
             val CURRENT: OperatingSystem = current
@@ -74,5 +73,4 @@ class ButtonModsLocation(
                 }
         }
     }
-
 }

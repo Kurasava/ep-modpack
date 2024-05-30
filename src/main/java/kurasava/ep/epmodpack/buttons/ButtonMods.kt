@@ -8,8 +8,6 @@ import javafx.scene.paint.Color
 import kurasava.ep.epmodpack.App
 
 class ButtonMods(button: Button, private val main: Pane) {
-
-
     init {
         val modsWindow = FXMLLoader(this.javaClass.classLoader.getResource("optional_mods.fxml"))
         val scene = Scene(modsWindow.load())

@@ -1,18 +1,20 @@
+import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
+
 plugins {
     id("java")
     id("application")
     id("org.openjfx.javafxplugin") version "0.1.0"
     id("com.github.johnrengelman.shadow") version "8.1.1"
-    id ("org.jetbrains.kotlin.jvm") version "1.9.24"
+    id("org.jetbrains.kotlin.jvm") version "1.9.24"
+    id("org.jlleitschuh.gradle.ktlint") version "12.1.1"
 }
 
 group = "kurasava.ep"
 version = project.property("version").toString()
 
-
 repositories {
     mavenCentral()
-    maven { url = uri("https://jitpack.io") }
+    maven("https://jitpack.io/")
 }
 
 tasks.withType<JavaCompile> {
@@ -37,7 +39,20 @@ dependencies {
     implementation("org.openjfx:javafx-graphics:$javafxVersion:linux")
     implementation("org.json:json:20231013")
     implementation("com.github.Querz:NBT:6.1")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
+}
+
+ktlint {
+    version.set("0.50.0")
+    debug.set(true)
+    verbose.set(true)
+    android.set(false)
+    outputToConsole.set(true)
+    outputColorName.set("RED")
+    ignoreFailures.set(false)
+    enableExperimentalRules.set(true)
+    reporters {
+        reporter(ReporterType.CHECKSTYLE)
+    }
 }
 
 kotlin {

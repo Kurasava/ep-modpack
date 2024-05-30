@@ -3,7 +3,6 @@ package kurasava.ep.epmodpack
 import org.json.JSONObject
 
 class Mod(modId: String) {
-
     @JvmField
     var id: String? = null
 
@@ -28,7 +27,7 @@ class Mod(modId: String) {
         this.name = jsonMod.getString("name")
         this.hidden = jsonMod.getBoolean("hidden")
         this.required = jsonMod.getBoolean("required")
-        val modLinks = jsonMod.getJSONObject("ver")
+        val modLinks = jsonMod.getJSONObject("versions")
         for (key in modLinks.keys()) {
             this.versions[key] = modLinks.getString(key)
         }
@@ -39,6 +38,6 @@ class Mod(modId: String) {
     }
 
     private fun getJsonMod(modId: String): JSONObject {
-        return App.MODS.map { it as JSONObject }.first { it.getString("id") == modId }
+        return App.mods.map { it as JSONObject }.first { it.getString("id") == modId }
     }
 }
