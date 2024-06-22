@@ -22,8 +22,7 @@ tasks.withType<JavaCompile> {
 }
 
 application {
-    mainModule = "kurasava.ep.epmodpack"
-    mainClass = "${mainModule.get()}.AppKt"
+    mainClass = "kurasava.ep.epmodpack.AppKt"
     applicationDefaultJvmArgs = listOf("-Xmx256m")
 }
 
