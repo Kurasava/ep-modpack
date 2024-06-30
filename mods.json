@@ -201,7 +201,7 @@
   {
     "id": "raknetify",
     "name": "Raknetify",
-    "description" : "Улучшает подключение к серверу при нестабильном интернете;",
+    "description" : "Улучшает качество подключение к серверу при нестабильном интернете используя протокол UDP.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -214,7 +214,7 @@
   {
     "id": "nvidium",
     "name": "Nvidium",
-    "description" : "Улучшает движок рендера, значительно увеличивая FPS, больше функций с Bobby;",
+    "description" : "Улучшает движок рендера, значительно увеличивая FPS и скорость загрузки чанков, а в связке с модом Bobby, позволяет видеть дальше ванильной прорисовки.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -230,7 +230,7 @@
   {
     "id": "bobby",
     "name": "Bobby",
-    "description" : "Позволяет видеть дальше серверных ограничений рендеринга;",
+    "description" : "Сохраняет чанки прогруженные на сервере, что позволяет видеть дальше серверных ограничений дистанции прорисовки.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -243,7 +243,7 @@
   {
     "id": "xaerosminimap",
     "name": "Xaero's Minimap",
-    "description" : "Удобная миникарта близкая к ванильному Майнкрафту;",
+    "description" : "Добавляет в игру удобную, достаточно ванильную миникарту, с множеством функций, имеет некоторые сомнительные функции, которые автоматически отключены на сервере ElectroPlay.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -256,7 +256,7 @@
   {
     "id": "xaerosworldmap",
     "name": "Xaero's Worldmap",
-    "description" : "Полноэкранная карта мира, больше функций с Xaero`s Minimap;",
+    "description" : "Добавляет в игру удобную, достаточно ванильную полноразмерную карту, с множеством функций, имеет некоторые сомнительные функции, которые автоматически отключены на сервере ElectroPlay.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -269,7 +269,7 @@
   {
     "id": "lambdynamiclights",
     "name": "LambDynamicLights",
-    "description" : "Добавляет динамическое освещение для предметов;",
+    "description" : "Добавляет динамическое освещение для предметов, мобов и тд.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -282,7 +282,7 @@
   {
     "id": "infinitemusic",
     "name": "Infinite Music",
-    "description" : "Убирает паузу между музыкой во время игры и не только (настраивается);",
+    "description" : "Убирает паузу между музыкой во время игры, в меню и тд. (настраивается).",
     "hidden": false,
     "required": false,
     "versions": {
@@ -295,7 +295,7 @@
   {
     "id": "appleskin",
     "name": "AppleSkin",
-    "description" : "Добавляет визуализацию насыщения, информацию о пищевой ценности еды и тд.;",
+    "description" : "Добавляет визуализацию насыщения поверх полосы голода, информацию о пищевой ценности еды.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -308,7 +308,7 @@
   {
     "id": "skinlayers3d",
     "name": "3D Skin Layers",
-    "description" : "Заменяет пиксельный второй слой скинов на воксельный делая его в 3D;",
+    "description" : "Заменяет пиксельный второй слой скинов на воксельный, делая его в 3D.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -321,7 +321,7 @@
   {
     "id": "languagereloaded",
     "name": "Language Reload",
-    "description" : "Увеличивает скорость смены языка и добавляет другие функции связанные с языком;",
+    "description" : "Увеличивает скорость смены языка и добавляет другие функции связанные с языком.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -334,7 +334,7 @@
   {
     "id": "shulkerboxtooltip",
     "name": "ShulkerBoxTooltip",
-    "description" : "Добавляет окно предварительного просмотра для шалкеров в инвентаре;",
+    "description" : "Добавляет окно предварительного просмотра для шалкеров и эндерчестов в инвентаре, имеет некоторые сомнительные функции, которые автоматически отключены на сервере ElectroPlay, в данный момент может вызвать проблемы с заходом на последний.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -347,7 +347,7 @@
   {
     "id": "advancementinfo",
     "name": "AdvancementInfo",
-    "description" : "Увеличивает окно достижений и показывает информацию о критериях достижений;",
+    "description" : "Увеличивает окно достижений и показывает информацию о критериях достижений.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -360,7 +360,7 @@
   {
     "id": "chatheads",
     "name": "Chat Heads",
-    "description" : "Добавляет отображение голов игроков в чате перед никнеймом;",
+    "description" : "Добавляет отображение голов игроков в чате перед никнеймом.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -373,7 +373,7 @@
   {
     "id": "litematica",
     "name": "Litematica",
-    "description" : "Инструмент для удобного строительства по 3D схемам;",
+    "description" : "Инструмент для удобного строительства по 3D схемам, отдельные дополнения для которого, такие как принтер, запрещены на сервере ElectroPlay.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -389,7 +389,7 @@
   {
     "id": "clickthrough",
     "name": "Click Through",
-    "description" : "Позволяет кликать по сундукам сквозь рамки и таблички;",
+    "description" : "Позволяет кликать по сундукам, бочкам, эндер-сундукам сквозь рамки и таблички.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -402,7 +402,7 @@
   {
     "id": "fastquit",
     "name": "FastQuit",
-    "description" : "Позволяет мгновенно выйти из мира, в то время как мир сохраняется в фоне;",
+    "description" : "Позволяет мгновенно выйти из локального мира, в то же время этот мир сохраняется в фоне.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -415,7 +415,7 @@
   {
     "id": "betterstatisticsscreen",
     "name": "Better Statistics Screen",
-    "description" : "Переделывает окно статистики добавляя больше информации;",
+    "description" : "Переделывает окно статистики добавляя больше информации о мобах, блоках, статистике, а так же позволяет фильтровать статистику.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -428,7 +428,7 @@
   {
     "id": "stendhal",
     "name": "Stendhal",
-    "description" : "Добавляет утилиты для редактирования книг, табличек и тд.;",
+    "description" : "Добавляет утилиты для редактирования книг, табличек и тд.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -441,7 +441,7 @@
   {
     "id": "continuity",
     "name": "Continuity",
-    "description" : "Добавляет соединение некоторых текстур (стекло, стеклянные панели и тд.);",
+    "description" : "Добавляет соединение некоторых текстур (стекло, стеклянные панели и тд.).",
     "hidden": false,
     "required": false,
     "versions": {
@@ -454,7 +454,7 @@
   {
     "id": "jade",
     "name": "Jade",
-    "description" : "Показывает информацию о объекте на который смотрит игрок;",
+    "description" : "Показывает информацию о объекте на который смотрит игрок, будь то блок, предмет или моб.",
     "hidden": false,
     "required": false,
     "versions": {
