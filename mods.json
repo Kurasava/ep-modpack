@@ -138,7 +138,7 @@
     "id" : "plasmovoice",
     "name": "PlasmoVoice",
     "hidden": false,
-    "required": false,
+    "required": true,
     "versions": {
       "1.20.1": "https://cdn.modrinth.com/data/1bZhdhsH/versions/WcH8MqNA/plasmovoice-fabric-1.20.1-2.0.8.jar",
       "1.20.2": "https://cdn.modrinth.com/data/1bZhdhsH/versions/yg260sGa/plasmovoice-fabric-1.20.2-2.0.8.jar",
