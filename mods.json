@@ -415,7 +415,7 @@
   {
     "id": "betterstatisticsscreen",
     "name": "Better Statistics Screen",
-    "description" : "Переделывает окно статистики добавляя больше информации о мобах, блоках, позволяет фильтровать статистику.",
+    "description" : "Переделывает окно статистики, добавляя больше информации о ней, позволяет фильтровать статистику.",
     "hidden": false,
     "required": false,
     "versions": {
