@@ -334,7 +334,7 @@
   {
     "id": "shulkerboxtooltip",
     "name": "ShulkerBoxTooltip",
-    "description" : "Добавляет окно предварительного просмотра шалкеров, имеет сомнительные функции, отключенные на сервере ElectroPlay.",
+    "description" : "Добавляет окно предвари- тельного просмотра шалкеров, имеет сомнительные функции, отключенные на сервере ElectroPlay.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -373,7 +373,7 @@
   {
     "id": "litematica",
     "name": "Litematica",
-    "description" : "Инструмент для удобного строительства по 3D схемам, отдельные дополнения, такие как принтер, запрещены на ElectroPlay.",
+    "description" : "Инструмент для удобного строи- тельства по 3D схемам, отдельные дополнения, такие как принтер, запрещены на ElectroPlay.",
     "hidden": false,
     "required": false,
     "versions": {
@@ -415,7 +415,7 @@
   {
     "id": "betterstatisticsscreen",
     "name": "Better Statistics Screen",
-    "description" : "Переделывает окно статистики добавляя больше информации о мобах, блоках, а так же позволяет фильтровать статистику.",
+    "description" : "Переделывает окно статистики добавляя больше информации о мобах, блоках, позволяет фильтровать статистику.",
     "hidden": false,
     "required": false,
     "versions": {
