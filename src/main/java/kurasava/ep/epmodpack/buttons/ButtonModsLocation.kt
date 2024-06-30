@@ -5,6 +5,7 @@ import javafx.scene.control.TextField
 import javafx.scene.layout.Pane
 import javafx.stage.DirectoryChooser
 import kurasava.ep.epmodpack.App
+import java.io.File
 import java.nio.file.Files
 import java.nio.file.Path
 import java.nio.file.Paths
@@ -19,6 +20,7 @@ class ButtonModsLocation(
         button.setOnMouseClicked {
             main.requestFocus()
             val directory = DirectoryChooser()
+            directory.initialDirectory = File(textFieldDirectory.text)
             val selectedDirectory = directory.showDialog(App.stage)
             if (selectedDirectory != null) textFieldDirectory.text = selectedDirectory.absolutePath
         }

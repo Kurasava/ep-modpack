@@ -39,34 +39,34 @@
 }
 
 .label-header {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter Regular';
     -fx-text-fill: white;
     -fx-font-size: 16px;
 }
 
 .label-versions {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter Regular';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
 }
 
 .label-mods {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter Regular';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
 }
 
 .label-location {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter Regular';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
 }
 
 .label-add-servers {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter Regular';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -133,7 +133,7 @@
     -fx-background-color: #33A77D;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter Regular';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -147,7 +147,7 @@
     -fx-background-color: #272727;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: "Inter";
+    -fx-font-family: "Inter Regular";
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -168,7 +168,7 @@
 }
 
 .context-menu-versions-item {
-    -fx-font-family: "Inter";
+    -fx-font-family: "Inter Regular";
     -fx-font-size: 15px;
     -fx-font-weight: normal;
     -fx-accent: #33A77D;
@@ -184,7 +184,7 @@
     -fx-background-color: #33A77D;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter Regular';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -202,7 +202,7 @@
     -fx-background-color: #33A77D;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter Regular';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -220,7 +220,7 @@
     -fx-background-color: #33A77D;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter Regular';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -230,7 +230,7 @@
     -fx-background-color: #505050;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter Regular';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -245,7 +245,7 @@
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
     -fx-border-color: transparent;
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter Regular';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -258,7 +258,7 @@
     -fx-border-color: #33A77D;
     -fx-border-width: 2px;
     -fx-border-radius: 6px;
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter Regular';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -279,35 +279,48 @@
     -fx-effect: dropshadow(gaussian, #33A77D, 10, 0, 0, 0);
 }
 
-.check-box-mod {
+.check-box-mod-normal {
     -fx-border-color: #6c6c6c;
     -fx-border-width: 3;
     -fx-border-radius: 7px;
     -fx-text-fill: transparent;
 }
 
-.check-box-mod .box,
-.check-box-mod .box .mark {
+.check-box-mod-normal .box,
+.check-box-mod-normal .box .mark {
     -fx-background-color: transparent;
     -fx-text-fill: transparent;
 }
 
-.check-box-mod:selected {
+.check-box-mod-normal:selected {
     -fx-background-color: #403f3f;
     -fx-background-radius: 7px;
     -fx-border-color: #33A77D;
     -fx-effect: dropshadow(gaussian, #33A77D, 10, 0, 0, 0);
 }
 
+.check-box-mod-not-release {
+    -fx-border-color: #fb4646;
+    -fx-border-width: 3;
+    -fx-border-radius: 7px;
+    -fx-text-fill: transparent;
+}
+
+.check-box-mod-not-release .box,
+.check-box-mod-not-release .box .mark {
+    -fx-background-color: transparent;
+    -fx-text-fill: transparent;
+}
+
 .mod-description {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter Regular';
     -fx-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
 }
 
 .mod-description-first-word {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter Regular';
     -fx-fill: #ffdd00;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -322,7 +335,7 @@
     -fx-background-color: transparent;
     -fx-border-color: transparent;
     -fx-pref-height: 25px;
-    -fx-pref-width: 300px;
+    -fx-pref-width: 400px;
 }
 
 .progress-bar .bar {
@@ -338,7 +351,7 @@
 }
 
 .label-progress {
-    -fx-font-family: 'Inter';
+    -fx-font-family: 'Inter Regular';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;

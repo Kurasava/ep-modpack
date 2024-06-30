@@ -3,28 +3,19 @@ package kurasava.ep.epmodpack
 import org.json.JSONObject
 
 class Mod(modId: String) {
-    @JvmField
-    var id: String? = null
-
-    @JvmField
-    var name: String? = null
-
-    @JvmField
-    var hidden: Boolean? = null
-
-    @JvmField
-    var required: Boolean? = null
-
-    @JvmField
+    var id: String
+    var name: String
+    var description: String?
+    var hidden: Boolean
+    var required: Boolean
     var versions: HashMap<String, String> = HashMap()
-
-    @JvmField
     var dependencies: HashSet<Mod> = HashSet()
 
     init {
         val jsonMod = getJsonMod(modId)
         this.id = jsonMod.getString("id")
         this.name = jsonMod.getString("name")
+        this.description = if (jsonMod.has("description")) jsonMod.getString("description") else null
         this.hidden = jsonMod.getBoolean("hidden")
         this.required = jsonMod.getBoolean("required")
         val modLinks = jsonMod.getJSONObject("versions")

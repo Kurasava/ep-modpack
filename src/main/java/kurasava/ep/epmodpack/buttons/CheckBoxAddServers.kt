@@ -23,11 +23,10 @@ class CheckBoxAddServers(checkBox: CheckBox, private val main: Pane) {
                 val rootTag = NBTUtil.read(file)
                 val tag1 = rootTag.tag as CompoundTag
                 val servers: ListTag<CompoundTag> = tag1.getListTag("servers") as ListTag<CompoundTag>
-                val epServers = App.readUrls("json/servers.json")
 
                 val existingIps = servers.map { it.getString("ip") }.toSet()
 
-                epServers.asSequence()
+                App.servers.asSequence()
                     .map { it as JSONObject }
                     .filterNot { existingIps.contains(it.getString("ip")) }
                     .map {

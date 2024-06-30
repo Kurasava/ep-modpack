@@ -15,7 +15,7 @@ object Downloader {
 
     fun download(url: URL, directory: Path): CompletableFuture<Path> = CompletableFuture.supplyAsync({
         val file = directory.resolve(url.toURI().path.substring(url.toURI().path.lastIndexOf("/") + 1))
-        this.openUrl(url).use { input -> file.outputStream().use { output -> input.copyTo(output) } }
+        this.readUrl(url).use { input -> file.outputStream().use { output -> input.copyTo(output) } }
         return@supplyAsync file
     }, this.threadPool)
 
@@ -24,7 +24,7 @@ object Downloader {
         return this.download(url, directory)
     }
 
-    private fun openUrl(url: URL): InputStream {
+    fun readUrl(url: URL): InputStream {
         val connection = url.openConnection() as HttpURLConnection
         connection.connectTimeout = 8000
         connection.readTimeout = 8000
