@@ -522,7 +522,10 @@
       "1.20.5": "https://cdn.modrinth.com/data/n6PXGAoM/versions/ZpFQOEiP/betterstats-3.11.3%2Bfabric-1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/n6PXGAoM/versions/ZpFQOEiP/betterstats-3.11.3%2Bfabric-1.20.6.jar",
       "1.21": "https://cdn.modrinth.com/data/n6PXGAoM/versions/2n9CpLEp/betterstats-3.11.3%2Bfabric-1.21.jar"
-    }
+    },
+    "dependencies": [
+      "tcd-commons-api"
+    ]
   },
   {
     "id": "stendhal",
@@ -600,6 +603,21 @@
       "1.20.5": "https://cdn.modrinth.com/data/Ha28R6CL/versions/afsFajDC/fabric-language-kotlin-1.11.0%2Bkotlin.2.0.0.jar",
       "1.20.6": "https://cdn.modrinth.com/data/Ha28R6CL/versions/afsFajDC/fabric-language-kotlin-1.11.0%2Bkotlin.2.0.0.jar",
       "1.21": "https://cdn.modrinth.com/data/Ha28R6CL/versions/afsFajDC/fabric-language-kotlin-1.11.0%2Bkotlin.2.0.0.jar"
+    }
+  },
+  {
+    "id": "tcd-commons-api",
+    "name": "TCDCommons API",
+    "hidden": true,
+    "required": false,
+    "versions": {
+      "1.20.1": "null",
+      "1.20.2": "null",
+      "1.20.3": "https://cdn.modrinth.com/data/Eldc1g37/versions/6GY5dK6d/tcdcommons-3.9.7%2Bfabric-1.20.4.jar",
+      "1.20.4": "https://cdn.modrinth.com/data/Eldc1g37/versions/6GY5dK6d/tcdcommons-3.9.7%2Bfabric-1.20.4.jar",
+      "1.20.5": "https://cdn.modrinth.com/data/Eldc1g37/versions/z9NdJvlY/tcdcommons-3.11.1%2Bfabric-1.20.6.jar",
+      "1.20.6": "https://cdn.modrinth.com/data/Eldc1g37/versions/z9NdJvlY/tcdcommons-3.11.1%2Bfabric-1.20.6.jar",
+      "1.21": "https://cdn.modrinth.com/data/Eldc1g37/versions/EbhWGkSn/tcdcommons-3.11.1%2Bfabric-1.21.jar"
     }
   }
 ]
