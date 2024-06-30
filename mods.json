@@ -334,7 +334,7 @@
   {
     "id": "shulkerboxtooltip",
     "name": "ShulkerBoxTooltip",
-    "description" : "Добавляет окно предвари- тельного просмотра шалкеров, имеет сомнительные функции, отключенные на сервере ElectroPlay.",
+    "description" : "Добавляет окно предвари- тельного просмотра шалкеров, имеет сомни- тельные функции, отключенные на ElectroPlay.",
     "hidden": false,
     "required": false,
     "versions": {
