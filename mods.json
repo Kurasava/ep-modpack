@@ -131,7 +131,7 @@
       "1.20.4": "https://cdn.modrinth.com/data/51shyZVL/versions/jv96n9er/moreculling-1.20.4-0.21.0.jar",
       "1.20.5": "https://cdn.modrinth.com/data/51shyZVL/versions/yduz8IZo/moreculling-1.20.5-0.25.0.jar",
       "1.20.6": "https://cdn.modrinth.com/data/51shyZVL/versions/yduz8IZo/moreculling-1.20.5-0.25.0.jar",
-      "1.21": "https://cdn.modrinth.com/data/51shyZVL/versions/yduz8IZo/moreculling-1.20.5-0.25.0.jar"
+      "1.21": "null"
     },
     "dependencies": [
       "cloth_config_api"
@@ -468,9 +468,9 @@
       "1.20.2": "https://mediafilez.forgecdn.net/files/4789/765/litematica-fabric-1.20.2-0.16.0.jar",
       "1.20.3": "https://mediafilez.forgecdn.net/files/5170/70/litematica-fabric-1.20.4-0.17.2.jar",
       "1.20.4": "https://mediafilez.forgecdn.net/files/5170/70/litematica-fabric-1.20.4-0.17.2.jar",
-      "1.20.5": "",
-      "1.20.6": "",
-      "1.21": ""
+      "1.20.5": "https://www.dropbox.com/scl/fi/m6knil3vy7w7v1sqndzx9/litematica-fabric-1.20.6-0.18.0.jar?rlkey=5agn857elkcku0yhonuy5z7t0&st=zzfw1mup&dl=1",
+      "1.20.6": "https://www.dropbox.com/scl/fi/m6knil3vy7w7v1sqndzx9/litematica-fabric-1.20.6-0.18.0.jar?rlkey=5agn857elkcku0yhonuy5z7t0&st=zzfw1mup&dl=1",
+      "1.21": "null"
     },
     "dependencies": [
       "malilib"
@@ -489,7 +489,7 @@
       "1.20.4": "https://cdn.modrinth.com/data/Z5b0cAlD/versions/7BwF68rg/clickthrough-1.20.4-fabric0.91.2-0.4.1.jar",
       "1.20.5": "https://cdn.modrinth.com/data/Z5b0cAlD/versions/7BwF68rg/clickthrough-1.20.4-fabric0.91.2-0.4.1.jar",
       "1.20.6": "https://cdn.modrinth.com/data/Z5b0cAlD/versions/7BwF68rg/clickthrough-1.20.4-fabric0.91.2-0.4.1.jar",
-      "1.21": "https://cdn.modrinth.com/data/Z5b0cAlD/versions/7BwF68rg/clickthrough-1.20.4-fabric0.91.2-0.4.1.jar"
+      "1.21": "null"
     }
   },
   {
@@ -540,7 +540,7 @@
       "1.20.4": "https://cdn.modrinth.com/data/BWloQ9jK/versions/GPeTJmd2/stendhal-1.4.1-1.20.2.jar",
       "1.20.5": "https://cdn.modrinth.com/data/BWloQ9jK/versions/RP6Tr3Bo/stendhal-1.4.1-1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/BWloQ9jK/versions/RP6Tr3Bo/stendhal-1.4.1-1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/BWloQ9jK/versions/RP6Tr3Bo/stendhal-1.4.1-1.20.6.jar"
+      "1.21": "null"
     }
   },
   {
