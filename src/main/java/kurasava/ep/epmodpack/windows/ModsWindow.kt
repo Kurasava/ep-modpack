@@ -3,31 +3,40 @@ package kurasava.ep.epmodpack.windows
 import javafx.scene.Node
 import javafx.scene.control.CheckBox
 import javafx.scene.control.ScrollPane
+import javafx.scene.control.Tooltip
 import javafx.scene.image.Image
 import javafx.scene.image.ImageView
 import javafx.scene.layout.Pane
 import javafx.scene.text.Text
 import javafx.scene.text.TextFlow
+import javafx.util.Duration
 import kurasava.ep.epmodpack.App
 import kurasava.ep.epmodpack.Mod
 import kurasava.ep.epmodpack.objects.Header
+import java.util.concurrent.CompletableFuture
 
 object ModsWindow {
-    val mods = Pane()
-    private val header = Header(false)
-    private val scrollPane = ScrollPane()
-    private val content = Pane()
+    private lateinit var mods: Pane
+    private lateinit var header: Header
+    private lateinit var scrollPane: ScrollPane
+    private lateinit var content: Pane
 
-    init {
+
+    fun initialize(version: String): Pane {
+        this.mods = Pane()
+        this.header = Header(false)
+        this.scrollPane = ScrollPane()
+        this.content = Pane()
         this.initModsPane()
         this.initScrollPane()
-        this.initContent()
+        this.initContent(version)
         this.scrollPane.content = this.content
-        this.mods.children.addAll(this.header.header, this.scrollPane)
+        mods.children.addAll(this.header.header, this.scrollPane)
+        return mods
     }
 
     private fun initModsPane() =
-        this.mods.apply {
+        mods.apply {
             prefHeight = 600.0
             prefWidth = 500.0
             styleClass.add("main-pane")
@@ -43,17 +52,10 @@ object ModsWindow {
         }
     }
 
-    private fun initContent() {
-        val optionalMods = App.mods
-            .map { it as org.json.JSONObject }
-            .filter { !it.getBoolean("required") }
-            .filter { !it.getBoolean("hidden") }
-            .map { Mod(it.getString("id")) }
-
+    private fun initContent(version: String) {
         this.content.apply {
-            prefHeight = 1730.0
             prefWidth = 485.0
-            this@ModsWindow.generateModButtons(optionalMods).forEach { children.add(it) }
+            children.addAll(this@ModsWindow.generateModButtons(App.optionalMods, version))
         }
     }
 
@@ -64,18 +66,37 @@ object ModsWindow {
             .map { Mod(it.text) }.toHashSet()
     }
 
-    private fun generateModButtons(optionalMods: List<Mod>): List<Node> {
+    private fun generateModButtons(optionalMods: List<Mod>, version: String): List<Node> {
         var checkBoxLayoutY = 10.0
         var textFlowLayoutY = 18.0
         var imageViewLayoutY = 20.0
         val set = ArrayList<Node>()
-        for (mod in optionalMods.sortedBy { it.name.lowercase() }) {
+        for (mod in optionalMods.sortedBy { it.id }) {
+           lateinit var alertImage: ImageView
+
             val checkBox = CheckBox().apply {
                 prefHeight = 76.0
                 prefWidth = 464.0
                 layoutX = 10.0
                 layoutY = checkBoxLayoutY
-                styleClass.add("check-box-mod-normal")
+                if (mod.isReleased(version)) {
+                    styleClass.add("check-box-mod-normal")
+                } else {
+                    styleClass.add("check-box-mod-not-released")
+                    isMouseTransparent = true
+                    alertImage = ImageView().apply {
+                        fitHeight = 24.0
+                        fitWidth = 24.0
+                        layoutX = 7.0
+                        layoutY = imageViewLayoutY - 13
+                        styleClass.add("mod-not-released-alert-image")
+                        image = Image("images/alert.png")
+                    }
+                    Tooltip.install(alertImage, Tooltip("Мод недоступен на этой версии").apply {
+                        showDelay = Duration(200.0)
+                        styleClass.add("tooltip-alert")
+                    })
+                }
                 text = mod.id
             }
 
@@ -84,7 +105,6 @@ object ModsWindow {
                 prefWidth = 369.0
                 layoutX = 96.0
                 layoutY = textFlowLayoutY
-                stylesheets.add(this::class.java.getResource(App.STYLESHEET)!!.toExternalForm())
                 mouseTransparentProperty().set(true)
             }
 
@@ -98,23 +118,27 @@ object ModsWindow {
                 text = " - " + mod.description
             }
 
-            val imageView = ImageView().apply {
+            val iconImage = ImageView().apply {
                 fitHeight = 55.0
                 fitWidth = 55.0
                 layoutX = 20.0
                 layoutY = imageViewLayoutY
                 styleClass.add("mod-image")
-                image = Image(this::class.java.getResourceAsStream("/images/mod-icons/${mod.id}.png"))
+                CompletableFuture.runAsync {
+                    image = App.modImages.find { it.first == mod.id }!!.second
+                }
             }
 
             textFlow.children.addAll(name, description)
             set.add(checkBox)
             set.add(textFlow)
-            set.add(imageView)
+            set.add(iconImage)
+            if (!mod.isReleased(version)) set.add(alertImage)
             checkBoxLayoutY += 86
             textFlowLayoutY += 86
             imageViewLayoutY += 86
         }
+        this.content.prefHeight = checkBoxLayoutY
         return set
     }
 }

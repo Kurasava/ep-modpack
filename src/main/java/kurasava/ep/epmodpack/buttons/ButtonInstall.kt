@@ -92,15 +92,8 @@ class ButtonInstall(
         val objectSize = if (addServers) 1.0 / (selectedMods.size + 1) else 1.0 / selectedMods.size
         val latch = CountDownLatch(selectedMods.size)
 
-        selectedMods.forEach { mod ->
-            val isModAvailable = mod.versions[version]?.let { it != "null" && it.isNotEmpty() } ?: false
-            val downloadTask = if (isModAvailable) {
-                Downloader.downloadMod(mod, version, modsDir)
-            } else {
-                CompletableFuture.completedFuture(null)
-            }
-
-            downloadTask.whenComplete { _, _ ->
+        selectedMods.filter { it.isReleased(version) }.forEach { mod ->
+            Downloader.downloadMod(mod, version, modsDir).whenComplete { _, _ ->
                 latch.countDown()
                 val targetProgress = (selectedMods.size - latch.count) * objectSize
 

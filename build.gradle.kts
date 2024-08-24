@@ -5,7 +5,7 @@ plugins {
     application
     id("org.openjfx.javafxplugin") version "0.1.0"
     id("com.github.johnrengelman.shadow") version "8.1.1"
-    kotlin("jvm") version "1.9.24"
+    kotlin("jvm") version "2.0.10"
     id("org.jlleitschuh.gradle.ktlint") version "12.1.1"
 }
 
@@ -34,9 +34,10 @@ javafx {
 }
 
 dependencies {
-    implementation("com.github.hervegirod:fxsvgimage:1.1")
-    implementation("org.openjfx:javafx-graphics:$javafxVersion:linux")
-    implementation("org.json:json:20231013")
+    implementation("org.openjfx:javafx-graphics:$javafxVersion")
+    implementation("org.openjfx:javafx-base:$javafxVersion")
+    implementation("org.openjfx:javafx-controls:$javafxVersion")
+    implementation("org.json:json:20240303")
     implementation("com.github.Querz:NBT:6.1")
 }
 
@@ -52,8 +53,4 @@ ktlint {
     reporters {
         reporter(ReporterType.CHECKSTYLE)
     }
-}
-
-kotlin {
-    jvmToolchain(17)
 }

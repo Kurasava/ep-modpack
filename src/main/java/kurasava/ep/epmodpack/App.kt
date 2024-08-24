@@ -4,11 +4,9 @@ import javafx.application.Application
 import javafx.scene.Scene
 import javafx.scene.image.Image
 import javafx.scene.paint.Color
-import javafx.scene.text.Font
 import javafx.stage.Stage
 import javafx.stage.StageStyle
 import kurasava.ep.epmodpack.windows.MainWindow
-import kurasava.ep.epmodpack.windows.ModsWindow
 import org.json.JSONArray
 import java.io.IOException
 import java.net.URL
@@ -21,12 +19,11 @@ class App : Application() {
         stage = mainStage
         val image = Image("images/icon-24px.png")
         stage.icons.add(image)
-        Font.loadFont(this::class.java.classLoader.getResource("Inter-Regular.ttf")!!.toExternalForm(), 10.0)
         stage.title = "Modpack installer"
         mainScene.stylesheets.add(this::class.java.getResource(STYLESHEET)!!.toExternalForm())
-        modsScene.stylesheets.add(this::class.java.getResource(STYLESHEET)!!.toExternalForm())
         stage.scene = mainScene
         stage.initStyle(StageStyle.TRANSPARENT)
+        stage.resizableProperty().set(true)
         stage.show()
     }
 
@@ -38,9 +35,14 @@ class App : Application() {
         val mods = JSONArray(Downloader.readUrl(modsUrl).bufferedReader().readText())
         val servers = JSONArray(Downloader.readUrl(serversUrl).bufferedReader().readText())
         val versions = JSONArray(Downloader.readUrl(versionsUrl).bufferedReader().readText())
+        val optionalMods = this.mods
+            .map { it as org.json.JSONObject }
+            .filter { !it.getBoolean("required") }
+            .filter { !it.getBoolean("hidden") }
+            .map { Mod(it.getString("id")) }
+        val modImages = Downloader.downloadModIcons()
         lateinit var stage: Stage
         val mainScene = Scene(MainWindow.mainPane, Color.TRANSPARENT)
-        val modsScene = Scene(ModsWindow.mods, Color.TRANSPARENT)
     }
 }
 

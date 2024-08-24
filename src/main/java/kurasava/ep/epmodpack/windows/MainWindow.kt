@@ -1,8 +1,11 @@
 package kurasava.ep.epmodpack.windows
 
+import javafx.scene.Scene
 import javafx.scene.control.*
 import javafx.scene.layout.Pane
+import javafx.scene.paint.Color
 import javafx.scene.text.TextAlignment
+import javafx.util.Duration
 import kurasava.ep.epmodpack.App
 import kurasava.ep.epmodpack.buttons.ButtonInstall
 import kurasava.ep.epmodpack.buttons.ButtonModsLocation
@@ -27,7 +30,7 @@ object MainWindow {
     private val installButton = Button()
 
     init {
-        this.initMods()
+        this.initMain()
         this.initVersionsLabel()
         this.initTextVersionButton()
         this.initVersionButton()
@@ -47,7 +50,7 @@ object MainWindow {
         )
     }
 
-    private fun initMods() = mainPane.apply {
+    private fun initMain() = mainPane.apply {
         prefHeight = 305.0
         prefWidth = 500.0
         styleClass.add("main-pane")
@@ -59,8 +62,12 @@ object MainWindow {
         layoutX = 18.0
         layoutY = 73.0
         styleClass.add("label-versions")
-        text = "Версия игры:"
+        text = "Версия игры"
         textAlignment = TextAlignment.CENTER
+        Tooltip.install(this, Tooltip("Выберите версию игры").apply {
+            showDelay = Duration(100.0)
+            styleClass.add("tooltip-info")
+        })
     }
 
     private fun initTextVersionButton() {
@@ -106,7 +113,11 @@ object MainWindow {
         layoutX = 18.0
         layoutY = 122.0
         styleClass.add("label-mods")
-        text = "Опциональные моды:"
+        text = "Опциональные моды"
+        Tooltip.install(this, Tooltip("Выберите дополнительные моды").apply {
+            showDelay = Duration(100.0)
+            styleClass.add("tooltip-info")
+        })
     }
 
     private fun initModsButton() = modsButton.apply {
@@ -119,7 +130,12 @@ object MainWindow {
         textAlignment = TextAlignment.CENTER
         setOnMouseClicked {
             mainPane.requestFocus()
-            App.stage.scene = App.modsScene
+            val modsWindow = ModsWindow.initialize(textVersionButton.text)
+            if (modsWindow.parent != null) (modsWindow.parent as Pane).children.remove(modsWindow)
+
+            App.stage.scene = Scene(modsWindow, Color.TRANSPARENT).apply {
+                stylesheets.add(this::class.java.getResource(App.STYLESHEET)!!.toExternalForm())
+            }
             App.stage.sizeToScene()
         }
 
@@ -132,7 +148,11 @@ object MainWindow {
         layoutX = 18.0
         layoutY = 170.0
         styleClass.add("label-location")
-        text = "Расположение:"
+        text = "Расположение"
+        Tooltip.install(this, Tooltip("Укажите путь к директории игры").apply {
+            showDelay = Duration(100.0)
+            styleClass.add("tooltip-info")
+        })
     }
 
     private fun initLocationTextField() = locationTextField.apply {
@@ -162,6 +182,10 @@ object MainWindow {
         layoutY = 215.0
         styleClass.add("label-add-servers")
         text = "Добавить сервера EP"
+        Tooltip.install(this, Tooltip("Укажите, добавлять ли сервера \n EP в список серверов").apply {
+            showDelay = Duration(100.0)
+            styleClass.add("tooltip-info")
+        })
     }
 
     private fun initServersCheckBox() = serversCheckBox.apply {

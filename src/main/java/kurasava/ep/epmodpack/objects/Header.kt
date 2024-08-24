@@ -1,5 +1,6 @@
 package kurasava.ep.epmodpack.objects
 
+import javafx.application.Platform
 import javafx.scene.control.Button
 import javafx.scene.control.Label
 import javafx.scene.image.Image
@@ -9,6 +10,7 @@ import javafx.scene.layout.Pane
 import javafx.stage.Stage
 import kurasava.ep.epmodpack.App
 import kurasava.ep.epmodpack.windows.MainWindow.mainPane
+import kotlin.system.exitProcess
 
 class Header(private val isMain: Boolean) {
     val header = Pane()
@@ -64,7 +66,7 @@ class Header(private val isMain: Boolean) {
             layoutY = 3.0
             stylesheets.add(this::class.java.getResource(App.STYLESHEET)!!.toExternalForm())
             styleClass.add("label-header")
-            text = if (isMain) "Modpack installer 1.0" else "Выберите дополнительные моды"
+            text = if (isMain) "Modpack installer 1.1" else "Выберите дополнительные моды"
         }
     }
 
@@ -76,7 +78,7 @@ class Header(private val isMain: Boolean) {
             layoutY = 5.0
             pickOnBoundsProperty().set(true)
             preserveRatioProperty().set(true)
-            image = Image(this::class.java.getResourceAsStream("/images/icon-64px.png"))
+            image = Image("/images/icon-64px.png")
         }
     }
 
@@ -111,7 +113,11 @@ class Header(private val isMain: Boolean) {
         if (button != MouseButton.PRIMARY) return
 
         val stage = this.header.scene.window as Stage
-        if (hide) stage.isIconified = true else stage.close()
+        if (hide) stage.isIconified = true else {
+            stage.close()
+            Platform.exit()
+            exitProcess(0)
+        }
 
         stage.iconifiedProperty().addListener { _, _, isNowMinimized ->
             if (!isNowMinimized) {

@@ -28,7 +28,8 @@ class Mod(modId: String) {
         }
     }
 
-    private fun getJsonMod(modId: String): JSONObject {
-        return App.mods.map { it as JSONObject }.first { it.getString("id") == modId }
-    }
+    private fun getJsonMod(modId: String): JSONObject = App.mods.map { it as JSONObject }.first { it.getString("id") == modId }
+
+
+    fun isReleased(version: String) : Boolean = this.versions[version]?.let { it != "null" && it.isNotEmpty() } ?: false
 }

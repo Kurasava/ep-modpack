@@ -1,3 +1,6 @@
+@font-face {
+    src: url(Inter-Regular.otf);
+}
 .main-pane {
     -fx-background-color: #2e2e2e;
     -fx-background-radius: 5px;
@@ -39,34 +42,34 @@
 }
 
 .label-header {
-    -fx-font-family: 'Inter Regular';
+    -fx-font-family: 'Inter';
     -fx-text-fill: white;
     -fx-font-size: 16px;
 }
 
 .label-versions {
-    -fx-font-family: 'Inter Regular';
+    -fx-font-family: 'Inter';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
 }
 
 .label-mods {
-    -fx-font-family: 'Inter Regular';
+    -fx-font-family: 'Inter';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
 }
 
 .label-location {
-    -fx-font-family: 'Inter Regular';
+    -fx-font-family: 'Inter';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
 }
 
 .label-add-servers {
-    -fx-font-family: 'Inter Regular';
+    -fx-font-family: 'Inter';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -133,7 +136,7 @@
     -fx-background-color: #33A77D;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: 'Inter Regular';
+    -fx-font-family: 'Inter';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -147,7 +150,7 @@
     -fx-background-color: #272727;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: "Inter Regular";
+    -fx-font-family: "Inter";
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -168,7 +171,7 @@
 }
 
 .context-menu-versions-item {
-    -fx-font-family: "Inter Regular";
+    -fx-font-family: "Inter";
     -fx-font-size: 15px;
     -fx-font-weight: normal;
     -fx-accent: #33A77D;
@@ -184,7 +187,7 @@
     -fx-background-color: #33A77D;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: 'Inter Regular';
+    -fx-font-family: 'Inter';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -202,7 +205,7 @@
     -fx-background-color: #33A77D;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: 'Inter Regular';
+    -fx-font-family: 'Inter';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -220,7 +223,7 @@
     -fx-background-color: #33A77D;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: 'Inter Regular';
+    -fx-font-family: 'Inter';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -230,7 +233,7 @@
     -fx-background-color: #505050;
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
-    -fx-font-family: 'Inter Regular';
+    -fx-font-family: 'Inter';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -245,7 +248,7 @@
     -fx-background-radius: 10px;
     -fx-padding: 6px 2px;
     -fx-border-color: transparent;
-    -fx-font-family: 'Inter Regular';
+    -fx-font-family: 'Inter';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -258,7 +261,7 @@
     -fx-border-color: #33A77D;
     -fx-border-width: 2px;
     -fx-border-radius: 6px;
-    -fx-font-family: 'Inter Regular';
+    -fx-font-family: 'Inter';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -299,28 +302,30 @@
     -fx-effect: dropshadow(gaussian, #33A77D, 10, 0, 0, 0);
 }
 
-.check-box-mod-not-release {
-    -fx-border-color: #fb4646;
+.check-box-mod-not-released {
+    -fx-border-color: #c61f1f;
     -fx-border-width: 3;
     -fx-border-radius: 7px;
     -fx-text-fill: transparent;
+    -fx-background-radius: 7px;
+    -fx-effect: dropshadow(gaussian, #c61f1f, 10, 0, 0, 0);
 }
 
-.check-box-mod-not-release .box,
-.check-box-mod-not-release .box .mark {
+.check-box-mod-not-released .box,
+.check-box-mod-not-released .box .mark {
     -fx-background-color: transparent;
     -fx-text-fill: transparent;
 }
 
 .mod-description {
-    -fx-font-family: 'Inter Regular';
+    -fx-font-family: 'Inter';
     -fx-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
 }
 
 .mod-description-first-word {
-    -fx-font-family: 'Inter Regular';
+    -fx-font-family: 'Inter';
     -fx-fill: #ffdd00;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
@@ -331,6 +336,37 @@
     -fx-background-color: transparent;
 }
 
+.mod-not-released-alert-image {
+    -fx-background-color: transparent;
+    -fx-effect: dropshadow(gaussian, #c61f1f, 3, 0, 0, 0);
+}
+
+.tooltip-alert {
+    -fx-font-family: 'Inter';
+    -fx-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: normal;
+    -fx-background-color: #333333;
+    -fx-border-color: #c61f1f;
+    -fx-border-width: 2px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.tooltip-info {
+    -fx-font-family: 'Inter';
+    -fx-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: normal;
+    -fx-background-color: #333333;
+    -fx-border-color: #297156;
+    -fx-border-width: 2px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
 .progress-bar {
     -fx-background-color: transparent;
     -fx-border-color: transparent;
@@ -339,8 +375,9 @@
 }
 
 .progress-bar .bar {
-    -fx-background-color: #33A77D;
+    -fx-background-color: linear-gradient(to right, #ffc300, #00ff8a);
     -fx-background-radius: 5px;
+    -fx-background-insets: 0;
     -fx-border-color: transparent;
 }
 
@@ -351,7 +388,7 @@
 }
 
 .label-progress {
-    -fx-font-family: 'Inter Regular';
+    -fx-font-family: 'Inter';
     -fx-text-fill: white;
     -fx-font-size: 15px;
     -fx-font-weight: normal;
