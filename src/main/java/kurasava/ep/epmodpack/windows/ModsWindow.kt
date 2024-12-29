@@ -11,6 +11,7 @@ import javafx.scene.text.Text
 import javafx.scene.text.TextFlow
 import javafx.util.Duration
 import kurasava.ep.epmodpack.App
+import kurasava.ep.epmodpack.App.Companion.optionalMods
 import kurasava.ep.epmodpack.Mod
 import kurasava.ep.epmodpack.objects.Header
 import java.util.concurrent.CompletableFuture
@@ -19,7 +20,8 @@ object ModsWindow {
     private lateinit var mods: Pane
     private lateinit var header: Header
     private lateinit var scrollPane: ScrollPane
-    private lateinit var content: Pane
+    private var content: Pane? = null
+    private val modIcons: HashSet<Pair<String, Image>> = this.getModIcons()
 
 
     fun initialize(version: String): Pane {
@@ -54,14 +56,14 @@ object ModsWindow {
 
     private fun initContent(version: String) {
         this.content.apply {
-            prefWidth = 485.0
-            children.addAll(this@ModsWindow.generateModButtons(App.optionalMods, version))
+            this?.prefWidth = 485.0
+            this?.children?.addAll(this@ModsWindow.generateModButtons(App.optionalMods, version))
         }
     }
 
     fun getSelectedMods(): HashSet<Mod> {
         if (content == null) return HashSet<Mod>()
-        return content.children
+        return content!!.children
             .filterIsInstance<CheckBox>()
             .filter { it.isSelected }
             .map { Mod(it.text) }.toHashSet()
@@ -117,6 +119,7 @@ object ModsWindow {
             val description = Text().apply {
                 styleClass.add("mod-description")
                 text = " - " + mod.description
+                mouseTransparentProperty().set(true)
             }
 
             val iconImage = ImageView().apply {
@@ -126,8 +129,9 @@ object ModsWindow {
                 layoutY = imageViewLayoutY
                 styleClass.add("mod-image")
                 CompletableFuture.runAsync {
-                    image = App.modImages.find { it.first == mod.id }!!.second
+                    image = modIcons.find { it.first == mod.id }!!.second
                 }
+                mouseTransparentProperty().set(true)
             }
 
             textFlow.children.addAll(name, description)
@@ -139,7 +143,15 @@ object ModsWindow {
             textFlowLayoutY += 86
             imageViewLayoutY += 86
         }
-        this.content.prefHeight = checkBoxLayoutY
+        this.content?.prefHeight = checkBoxLayoutY
         return set
+    }
+
+    private fun getModIcons(): HashSet<Pair<String, Image>> {
+        val modIcons = HashSet<Pair<String, Image>>()
+        optionalMods.forEach {
+            modIcons.add(Pair(it.id, Image(this.javaClass.getResourceAsStream("/icons/${it.id}.png"))))
+        }
+        return modIcons
     }
 }

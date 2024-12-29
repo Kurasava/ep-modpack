@@ -128,10 +128,11 @@ object MainWindow {
         styleClass.add("button-mods")
         text = "..."
         textAlignment = TextAlignment.CENTER
+        val modsWindow = ModsWindow.initialize(textVersionButton.text)
         setOnMouseClicked {
             mainPane.requestFocus()
-            val modsWindow = ModsWindow.initialize(textVersionButton.text)
-            if (modsWindow.parent != null) (modsWindow.parent as Pane).children.remove(modsWindow)
+            val oldScene = modsWindow.scene
+            oldScene?.root = Pane()
 
             App.stage.scene = Scene(modsWindow, Color.TRANSPARENT).apply {
                 stylesheets.add(this::class.java.getResource(App.STYLESHEET)!!.toExternalForm())

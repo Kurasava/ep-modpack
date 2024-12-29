@@ -26,20 +26,6 @@ object Downloader {
         return this.download(url, directory)
     }
 
-    fun downloadModIcons(): HashSet<Pair<String, Image>> {
-        val modIcons = HashSet<Pair<String, Image>>()
-        for (mod in App.optionalMods) {
-            CompletableFuture.supplyAsync({
-                modIcons.add(
-                    Pair(mod.id, Image(
-                        this.readUrl(URI.create("https://raw.githubusercontent.com/Kurasava/ep-modpack/meta/icons/${mod.id}.png").toURL()))
-                    )
-                )
-            }, this.threadPool)
-        }
-        return modIcons
-    }
-
     fun readUrl(url: URL): InputStream {
         val connection = url.openConnection() as HttpURLConnection
         connection.connectTimeout = 8000

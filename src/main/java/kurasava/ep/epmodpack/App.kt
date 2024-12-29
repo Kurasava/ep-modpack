@@ -9,8 +9,8 @@ import javafx.stage.StageStyle
 import kurasava.ep.epmodpack.windows.MainWindow
 import org.json.JSONArray
 import org.json.JSONObject
+import org.json.JSONTokener
 import java.io.IOException
-import java.net.URL
 
 class App : Application() {
 
@@ -28,22 +28,19 @@ class App : Application() {
     }
 
     companion object {
-        private val modsUrl = URL("https://raw.githubusercontent.com/Kurasava/ep-modpack/meta/mods.json")
-        private val serversUrl = URL("https://raw.githubusercontent.com/Kurasava/ep-modpack/meta/servers.json")
-        private val versionsUrl = URL("https://raw.githubusercontent.com/Kurasava/ep-modpack/meta/versions.json")
         const val STYLESHEET = "/style.css"
-        val mods = JSONArray(Downloader.readUrl(modsUrl).bufferedReader().readText())
-        val servers = JSONArray(Downloader.readUrl(serversUrl).bufferedReader().readText())
-        val versions = JSONArray(Downloader.readUrl(versionsUrl).bufferedReader().readText())
+        lateinit var stage: Stage
+        val mods = JSONArray(JSONTokener(this.javaClass.getResourceAsStream("/mods.json")))
+        val servers = JSONArray(JSONTokener(this.javaClass.getResourceAsStream("/servers.json")))
+        val versions = JSONArray(JSONTokener(this.javaClass.getResourceAsStream("/versions.json")))
         val optionalMods = this.mods
             .map { it as JSONObject }
             .filter { !it.getBoolean("required") }
             .filter { !it.getBoolean("hidden") }
             .map { Mod(it.getString("id")) }
-        val modImages = Downloader.downloadModIcons()
-        lateinit var stage: Stage
         val mainScene = Scene(MainWindow.mainPane, Color.TRANSPARENT)
     }
+
 }
 
 fun main() {

@@ -1,4 +1,4 @@
-import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
+// import org.jlleitschuh.gradle.ktlint.reporter.ReporterType
 
 plugins {
     java
@@ -6,7 +6,7 @@ plugins {
     id("org.openjfx.javafxplugin") version "0.1.0"
     id("com.github.johnrengelman.shadow") version "8.1.1"
     kotlin("jvm") version "2.0.10"
-    id("org.jlleitschuh.gradle.ktlint") version "12.1.1"
+//    id("org.jlleitschuh.gradle.ktlint") version "12.1.1"
 }
 
 group = "kurasava.ep"
@@ -41,16 +41,16 @@ dependencies {
     implementation("com.github.Querz:NBT:6.1")
 }
 
-ktlint {
-    version.set("0.50.0")
-    debug.set(true)
-    verbose.set(true)
-    android.set(false)
-    outputToConsole.set(true)
-    outputColorName.set("RED")
-    ignoreFailures.set(false)
-    enableExperimentalRules.set(true)
-    reporters {
-        reporter(ReporterType.CHECKSTYLE)
-    }
-}
+  //ktlint {
+  //    version.set("0.50.0")
+  //    debug.set(true)
+  //    verbose.set(true)
+  //    android.set(false)
+  //    outputToConsole.set(true)
+  //    outputColorName.set("RED")
+  //    ignoreFailures.set(false)
+  //    enableExperimentalRules.set(true)
+  //    reporters {
+  //        reporter(ReporterType.CHECKSTYLE)
+  //    }
+  //}
