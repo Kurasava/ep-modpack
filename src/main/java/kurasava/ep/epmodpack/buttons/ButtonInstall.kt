@@ -62,6 +62,7 @@ class ButtonInstall(
             .map { it as JSONObject }
             .filter { it.getBoolean("required") }
             .map { Mod(it.getString("id")) }
+            .filter { it.isReleased(version) }
             .toHashSet()
         mods.addAll(ModsWindow.getSelectedMods())
 
@@ -92,7 +93,7 @@ class ButtonInstall(
         val objectSize = if (addServers) 1.0 / (selectedMods.size + 1) else 1.0 / selectedMods.size
         val latch = CountDownLatch(selectedMods.size)
 
-        selectedMods.filter { it.isReleased(version) }.forEach { mod ->
+        selectedMods.forEach { mod ->
             Downloader.downloadMod(mod, version, modsDir).whenComplete { _, _ ->
                 latch.countDown()
                 val targetProgress = (selectedMods.size - latch.count) * objectSize

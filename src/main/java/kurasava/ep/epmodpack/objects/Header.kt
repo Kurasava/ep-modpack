@@ -66,7 +66,7 @@ class Header(private val isMain: Boolean) {
             layoutY = 3.0
             stylesheets.add(this::class.java.getResource(App.STYLESHEET)!!.toExternalForm())
             styleClass.add("label-header")
-            text = if (isMain) "Modpack installer 1.1" else "Выберите дополнительные моды"
+            text = if (isMain) "Modpack installer 1.1.1" else "Выберите дополнительные моды"
         }
     }
 

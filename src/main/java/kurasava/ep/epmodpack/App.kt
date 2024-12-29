@@ -8,9 +8,9 @@ import javafx.stage.Stage
 import javafx.stage.StageStyle
 import kurasava.ep.epmodpack.windows.MainWindow
 import org.json.JSONArray
+import org.json.JSONObject
 import java.io.IOException
 import java.net.URL
-import java.util.*
 
 class App : Application() {
 
@@ -36,7 +36,7 @@ class App : Application() {
         val servers = JSONArray(Downloader.readUrl(serversUrl).bufferedReader().readText())
         val versions = JSONArray(Downloader.readUrl(versionsUrl).bufferedReader().readText())
         val optionalMods = this.mods
-            .map { it as org.json.JSONObject }
+            .map { it as JSONObject }
             .filter { !it.getBoolean("required") }
             .filter { !it.getBoolean("hidden") }
             .map { Mod(it.getString("id")) }

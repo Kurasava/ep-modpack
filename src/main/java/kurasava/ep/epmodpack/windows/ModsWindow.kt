@@ -60,6 +60,7 @@ object ModsWindow {
     }
 
     fun getSelectedMods(): HashSet<Mod> {
+        if (content == null) return HashSet<Mod>()
         return content.children
             .filterIsInstance<CheckBox>()
             .filter { it.isSelected }
