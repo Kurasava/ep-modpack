@@ -368,7 +368,7 @@
   },
   {
     "id": "dynamic-lights",
-    "name": "DyoamicLights",
+    "name": "Dynamic Lights",
     "description" : "Добавляет динамическое освещение для предметов, мобов и тд.",
     "hidden": false,
     "required": false,
