@@ -1,6 +1,6 @@
 [
   {
-    "id" : "modmenu",
+    "id" : "mod-menu",
     "name": "ModMenu",
     "hidden": false,
     "required": true,
@@ -11,7 +11,8 @@
       "1.20.4": "https://cdn.modrinth.com/data/mOgUt4GM/versions/w3icASIi/modmenu-9.1.0-beta.1.jar",
       "1.20.5": "https://cdn.modrinth.com/data/mOgUt4GM/versions/HLa8flfl/modmenu-10.0.0.jar",
       "1.20.6": "https://cdn.modrinth.com/data/mOgUt4GM/versions/HLa8flfl/modmenu-10.0.0.jar",
-      "1.21": "https://cdn.modrinth.com/data/mOgUt4GM/versions/xhN1IvHi/modmenu-11.0.1.jar"
+      "1.21": "https://cdn.modrinth.com/data/mOgUt4GM/versions/xhN1IvHi/modmenu-11.0.1.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/mOgUt4GM/versions/4xPSbh0l/modmenu-12.0.0.jar"
     }
   },
   {
@@ -26,11 +27,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/AANobbMI/versions/4GyXKCLd/sodium-fabric-0.5.8%2Bmc1.20.4.jar",
       "1.20.5": "https://cdn.modrinth.com/data/AANobbMI/versions/IZskON6d/sodium-fabric-0.5.8%2Bmc1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/AANobbMI/versions/IZskON6d/sodium-fabric-0.5.8%2Bmc1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/AANobbMI/versions/RncWhTxD/sodium-fabric-0.5.11%2Bmc1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/AANobbMI/versions/RncWhTxD/sodium-fabric-0.5.11%2Bmc1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/AANobbMI/versions/dsw736d2/sodium-fabric-0.6.5%2Bmc1.21.3.jar"
     }
   },
   {
-    "id" : "sodium_extra",
+    "id" : "sodium-extra",
     "name": "Sodium Extra",
     "hidden": false,
     "required": true,
@@ -41,11 +43,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/PtjYWJkn/versions/M0ndiav7/sodium-extra-0.5.4%2Bmc1.20.4-build.116.jar",
       "1.20.5": "https://cdn.modrinth.com/data/PtjYWJkn/versions/TJDWVdsb/sodium-extra-0.5.5%2Bmc1.20.6-build.118.jar",
       "1.20.6": "https://cdn.modrinth.com/data/PtjYWJkn/versions/TJDWVdsb/sodium-extra-0.5.5%2Bmc1.20.6-build.118.jar",
-      "1.21": "https://cdn.modrinth.com/data/PtjYWJkn/versions/uuhVlRGv/sodium-extra-0.5.7%2Bmc1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/PtjYWJkn/versions/uuhVlRGv/sodium-extra-0.5.7%2Bmc1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/PtjYWJkn/versions/ZQ3k4KzW/sodium-extra-fabric-0.6.0%2Bmc1.21.3.jar"
     }
   },
   {
-    "id" : "reeses_sodium_options",
+    "id" : "reeses-sodium-options",
     "name": "Reeses Sodium Options",
     "hidden": false,
     "required": true,
@@ -56,11 +59,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/Bh37bMuy/versions/fkLiGoHs/reeses_sodium_options-1.7.2%2Bmc1.20.4-build.102.jar",
       "1.20.5": "https://cdn.modrinth.com/data/Bh37bMuy/versions/JKZokbpT/reeses_sodium_options-1.7.2%2Bmc1.20.5-build.103.jar",
       "1.20.6": "https://cdn.modrinth.com/data/Bh37bMuy/versions/JKZokbpT/reeses_sodium_options-1.7.2%2Bmc1.20.5-build.103.jar",
-      "1.21": "https://cdn.modrinth.com/data/Bh37bMuy/versions/6gZ19wc6/reeses_sodium_options-1.7.3%2Bmc1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/Bh37bMuy/versions/6gZ19wc6/reeses_sodium_options-1.7.3%2Bmc1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/Bh37bMuy/versions/4sugrjBi/reeses-sodium-options-fabric-1.8.0%2Bmc1.21.3.jar"
     }
   },
   {
-    "id" : "ferritecore",
+    "id" : "ferrite-core",
     "name": "FerriteCore",
     "hidden": false,
     "required": true,
@@ -71,7 +75,8 @@
       "1.20.4": "https://cdn.modrinth.com/data/uXXizFIs/versions/pguEMpy9/ferritecore-6.0.3-fabric.jar",
       "1.20.5": "https://cdn.modrinth.com/data/uXXizFIs/versions/i9RcCdZv/ferritecore-6.1.1-fabric.jar",
       "1.20.6": "https://cdn.modrinth.com/data/uXXizFIs/versions/i9RcCdZv/ferritecore-6.1.1-fabric.jar",
-      "1.21": "https://cdn.modrinth.com/data/uXXizFIs/versions/wmIZ4wP4/ferritecore-7.0.0-fabric.jar"
+      "1.21": "https://cdn.modrinth.com/data/uXXizFIs/versions/wmIZ4wP4/ferritecore-7.0.0-fabric.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/uXXizFIs/versions/a3QXXGz2/ferritecore-7.1.0-hotfix-fabric.jar"
     }
   },
   {
@@ -86,7 +91,8 @@
       "1.20.4": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/nMhjKWVE/lithium-fabric-mc1.20.4-0.12.1.jar",
       "1.20.5": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/p25IJhj0/lithium-fabric-mc1.20.5-0.12.5.jar",
       "1.20.6": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/5a3sPIH2/lithium-fabric-mc1.20.6-0.12.5.jar",
-      "1.21": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/NTZCh7rb/lithium-fabric-mc1.21-0.13.0.jar"
+      "1.21": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/NTZCh7rb/lithium-fabric-mc1.21-0.13.0.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/pZRO3EKX/lithium-fabric-0.14.3%2Bmc1.21.3.jar"
     }
   },
   {
@@ -101,11 +107,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/Orvt0mRa/versions/Aouse6P7/indium-1.0.30%2Bmc1.20.4.jar",
       "1.20.5": "https://cdn.modrinth.com/data/Orvt0mRa/versions/VlLxDisa/indium-1.0.31%2Bmc1.20.4.jar",
       "1.20.6": "https://cdn.modrinth.com/data/Orvt0mRa/versions/VlLxDisa/indium-1.0.31%2Bmc1.20.4.jar",
-      "1.21": "https://cdn.modrinth.com/data/Orvt0mRa/versions/Z8VpxxGh/indium-1.0.35%2Bmc1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/Orvt0mRa/versions/Z8VpxxGh/indium-1.0.35%2Bmc1.21.jar",
+      "1.21.3": "null"
     }
   },
   {
-    "id" : "memoryleakfix",
+    "id" : "memory-leak-fix",
     "name": "MemoryLeakFix",
     "hidden": false,
     "required": true,
@@ -116,11 +123,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/NRjRiSSD/versions/5xvCCRjJ/memoryleakfix-fabric-1.17%2B-1.1.5.jar",
       "1.20.5": "https://cdn.modrinth.com/data/NRjRiSSD/versions/5xvCCRjJ/memoryleakfix-fabric-1.17%2B-1.1.5.jar",
       "1.20.6": "https://cdn.modrinth.com/data/NRjRiSSD/versions/5xvCCRjJ/memoryleakfix-fabric-1.17%2B-1.1.5.jar",
-      "1.21": "https://cdn.modrinth.com/data/NRjRiSSD/versions/5xvCCRjJ/memoryleakfix-fabric-1.17%2B-1.1.5.jar"
+      "1.21": "https://cdn.modrinth.com/data/NRjRiSSD/versions/5xvCCRjJ/memoryleakfix-fabric-1.17%2B-1.1.5.jar",
+      "1.21.3": "null"
     }
   },
   {
-    "id" : "moreculling",
+    "id" : "more-culling",
     "name": "MoreCulling",
     "hidden": false,
     "required": true,
@@ -131,10 +139,11 @@
       "1.20.4": "https://cdn.modrinth.com/data/51shyZVL/versions/jv96n9er/moreculling-1.20.4-0.21.0.jar",
       "1.20.5": "https://cdn.modrinth.com/data/51shyZVL/versions/yduz8IZo/moreculling-1.20.5-0.25.0.jar",
       "1.20.6": "https://cdn.modrinth.com/data/51shyZVL/versions/yduz8IZo/moreculling-1.20.5-0.25.0.jar",
-      "1.21": "https://cdn.modrinth.com/data/51shyZVL/versions/BUxgeDdf/moreculling-1.21-0.26.0.jar"
+      "1.21": "https://cdn.modrinth.com/data/51shyZVL/versions/BUxgeDdf/moreculling-1.21-0.26.0.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/51shyZVL/versions/YnqEEVHM/moreculling-fabric-1.21.3-1.1.0.jar"
     },
     "dependencies": [
-      "cloth_config_api"
+      "cloth-config-api"
     ]
   },
   {
@@ -149,11 +158,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/YL57xq9U/versions/kGdJ11Rt/iris-mc1.20.4-1.6.17.jar",
       "1.20.5": "https://cdn.modrinth.com/data/YL57xq9U/versions/BvVRER1H/iris-1.7.0%2Bmc1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/YL57xq9U/versions/BvVRER1H/iris-1.7.0%2Bmc1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/YL57xq9U/versions/kuOV4Ece/iris-1.7.3%2Bmc1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/YL57xq9U/versions/kuOV4Ece/iris-1.7.3%2Bmc1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/YL57xq9U/versions/xQYJAYTI/iris-fabric-1.8.1%2Bmc1.21.3.jar"
     }
   },
   {
-    "id" : "nochatreports",
+    "id" : "no-chat-reports",
     "name": "NoChatReports",
     "hidden": false,
     "required": true,
@@ -164,11 +174,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/qQyHxfxd/versions/tfv6A4l5/NoChatReports-FABRIC-1.20.4-v2.5.0.jar",
       "1.20.5": "https://cdn.modrinth.com/data/qQyHxfxd/versions/MNkuIjea/NoChatReports-FABRIC-1.20.6-v2.7.1.jar",
       "1.20.6": "https://cdn.modrinth.com/data/qQyHxfxd/versions/MNkuIjea/NoChatReports-FABRIC-1.20.6-v2.7.1.jar",
-      "1.21": "https://cdn.modrinth.com/data/qQyHxfxd/versions/riMhCAII/NoChatReports-FABRIC-1.21-v2.8.0.jar"
+      "1.21": "https://cdn.modrinth.com/data/qQyHxfxd/versions/riMhCAII/NoChatReports-FABRIC-1.21-v2.8.0.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/qQyHxfxd/versions/Cg7X9iDa/NoChatReports-FABRIC-1.21.3-v2.10.1.jar"
     }
   },
   {
-    "id" : "plasmovoice",
+    "id" : "plasmo-voice",
     "name": "PlasmoVoice",
     "hidden": false,
     "required": true,
@@ -179,7 +190,8 @@
       "1.20.4": "https://cdn.modrinth.com/data/1bZhdhsH/versions/fykZJcya/plasmovoice-fabric-1.20.3-2.0.8.jar",
       "1.20.5": "https://cdn.modrinth.com/data/1bZhdhsH/versions/CwMlzZgx/plasmovoice-fabric-1.20.6-2.0.10.jar",
       "1.20.6": "https://cdn.modrinth.com/data/1bZhdhsH/versions/CwMlzZgx/plasmovoice-fabric-1.20.6-2.0.10.jar",
-      "1.21": "https://cdn.modrinth.com/data/1bZhdhsH/versions/e3mAxhWS/plasmovoice-fabric-1.21-2.0.10.jar"
+      "1.21": "https://cdn.modrinth.com/data/1bZhdhsH/versions/e3mAxhWS/plasmovoice-fabric-1.21-2.0.10.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/1bZhdhsH/versions/TvNrdfDV/plasmovoice-fabric-1.21.3-2.1.2.jar"
     }
   },
   {
@@ -194,15 +206,32 @@
       "1.20.4": "https://cdn.modrinth.com/data/w7ThoJFB/versions/BalILUb7/Zoomify-2.13.2.jar",
       "1.20.5": "https://cdn.modrinth.com/data/w7ThoJFB/versions/twJQAslW/Zoomify-2.14.0%2B1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/w7ThoJFB/versions/twJQAslW/Zoomify-2.14.0%2B1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/w7ThoJFB/versions/vg7GaKbh/Zoomify-2.14.0%2B1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/w7ThoJFB/versions/vg7GaKbh/Zoomify-2.14.0%2B1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/w7ThoJFB/versions/RKRjd2h1/Zoomify-2.14.2%2B1.21.3.jar"
     },
     "dependencies": [
-      "fabric_language_kotlin",
-      "yet_another_config_lib_v3"
+      "fabriс-language-kotlin",
+      "yet-another-config-lib-v3"
     ]
   },
   {
-    "id" : "fabric_api",
+    "id": "krypton",
+    "name": "Krypton",
+    "hidden": false,
+    "required": true,
+    "versions": {
+      "1.20.1": "https://cdn.modrinth.com/data/fQEb0iXm/versions/jiDwS0W1/krypton-0.2.3.jar",
+      "1.20.2": "https://cdn.modrinth.com/data/fQEb0iXm/versions/bRcuOnao/krypton-0.2.6.jar",
+      "1.20.3": "https://cdn.modrinth.com/data/fQEb0iXm/versions/bRcuOnao/krypton-0.2.6.jar",
+      "1.20.4": "https://cdn.modrinth.com/data/fQEb0iXm/versions/bRcuOnao/krypton-0.2.6.jar",
+      "1.20.5": "https://cdn.modrinth.com/data/fQEb0iXm/versions/PYi5mm1G/krypton-0.2.7.jar",
+      "1.20.6": "https://cdn.modrinth.com/data/fQEb0iXm/versions/PYi5mm1G/krypton-0.2.7.jar",
+      "1.21": "https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar"
+    }
+  },
+  {
+    "id" : "fabric-api",
     "name": "Fabric API",
     "hidden": false,
     "required": true,
@@ -213,11 +242,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/P7dR8mSH/versions/xklQBMta/fabric-api-0.97.0%2B1.20.4.jar",
       "1.20.5": "https://cdn.modrinth.com/data/P7dR8mSH/versions/GCdY4I8I/fabric-api-0.97.8%2B1.20.5.jar",
       "1.20.6": "https://cdn.modrinth.com/data/P7dR8mSH/versions/GT0R5Mz7/fabric-api-0.100.4%2B1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/P7dR8mSH/versions/oGwyXeEI/fabric-api-0.102.0%2B1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/P7dR8mSH/versions/oGwyXeEI/fabric-api-0.102.0%2B1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/P7dR8mSH/versions/k4z4g5d5/fabric-api-0.112.1%2B1.21.3.jar"
     }
   },
   {
-    "id" : "cloth_config_api",
+    "id" : "cloth-config-api",
     "name": "Cloth Config API",
     "hidden": true,
     "required": false,
@@ -228,11 +258,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/9s6osm5g/versions/eBZiZ9NS/cloth-config-13.0.121-fabric.jar",
       "1.20.5": "https://cdn.modrinth.com/data/9s6osm5g/versions/znhJLkCd/cloth-config-14.0.126-fabric.jar",
       "1.20.6": "https://cdn.modrinth.com/data/9s6osm5g/versions/znhJLkCd/cloth-config-14.0.126-fabric.jar",
-      "1.21": "https://cdn.modrinth.com/data/9s6osm5g/versions/7jtvrmVP/cloth-config-15.0.130-fabric.jar"
+      "1.21": "https://cdn.modrinth.com/data/9s6osm5g/versions/7jtvrmVP/cloth-config-15.0.130-fabric.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/9s6osm5g/versions/FgXq8Sfo/cloth-config-16.0.143-fabric.jar"
     }
   },
   {
-    "id": "yet_another_config_lib_v3",
+    "id": "yet-another-config-lib-v3",
     "name": "Yet another config lib v3",
     "hidden": true,
     "required": false,
@@ -243,7 +274,8 @@
       "1.20.4": "https://cdn.modrinth.com/data/1eAoo2KR/versions/StXMrAsz/yet-another-config-lib-fabric-3.3.2%2B1.20.4.jar",
       "1.20.5": "https://cdn.modrinth.com/data/1eAoo2KR/versions/LXUa8bFw/YetAnotherConfigLib-3.4.1%2B1.20.5-fabric.jar",
       "1.20.6": "https://cdn.modrinth.com/data/1eAoo2KR/versions/xiSmTJ03/YetAnotherConfigLib-3.5.0%2B1.20.6-fabric.jar",
-      "1.21": "https://cdn.modrinth.com/data/1eAoo2KR/versions/Y8Wa10Re/YetAnotherConfigLib-3.5.0%2B1.21-fabric.jar"
+      "1.21": "https://cdn.modrinth.com/data/1eAoo2KR/versions/Y8Wa10Re/YetAnotherConfigLib-3.5.0%2B1.21-fabric.jar",
+      "1.21.3": "https://modrinth.com/mod/yacl/version/3.6.2+1.21.2-fabric"
     }
   },
   {
@@ -259,7 +291,8 @@
       "1.20.4": "https://cdn.modrinth.com/data/5IovSY3u/versions/KejXypZ2/raknetify-fabric-0.1.0%2Balpha.5.116-all.jar",
       "1.20.5": "https://cdn.modrinth.com/data/5IovSY3u/versions/gchRoKmg/raknetify-fabric-0.1.0%2Balpha.5.128-all.jar",
       "1.20.6": "https://cdn.modrinth.com/data/5IovSY3u/versions/gchRoKmg/raknetify-fabric-0.1.0%2Balpha.5.128-all.jar",
-      "1.21": "https://cdn.modrinth.com/data/5IovSY3u/versions/gchRoKmg/raknetify-fabric-0.1.0%2Balpha.5.128-all.jar"
+      "1.21": "https://cdn.modrinth.com/data/5IovSY3u/versions/gchRoKmg/raknetify-fabric-0.1.0%2Balpha.5.128-all.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/5IovSY3u/versions/ywJ2Z0ds/raknetify-fabric-0.1.0%2Balpha.5.142-all.jar"
     }
   },
   {
@@ -275,7 +308,8 @@
       "1.20.4": "https://cdn.modrinth.com/data/SfMw2IZN/versions/J2fuM58R/nvidium-0.2.6-beta.jar",
       "1.20.5": "https://cdn.modrinth.com/data/SfMw2IZN/versions/Di2JxVAQ/nvidium-0.2.7-beta.jar",
       "1.20.6": "https://cdn.modrinth.com/data/SfMw2IZN/versions/Di2JxVAQ/nvidium-0.2.7-beta.jar",
-      "1.21": "https://cdn.modrinth.com/data/SfMw2IZN/versions/cl0HrTL6/nvidium-0.2.9-beta.jar"
+      "1.21": "https://cdn.modrinth.com/data/SfMw2IZN/versions/cl0HrTL6/nvidium-0.2.9-beta.jar",
+      "1.21.3": "null"
     },
     "dependencies": [
       "bobby"
@@ -294,11 +328,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/M08ruV16/versions/jGGumR4a/bobby-5.1.0%2Bmc1.20.4.jar",
       "1.20.5": "https://cdn.modrinth.com/data/M08ruV16/versions/70sKyIMv/bobby-5.2.1%2Bmc1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/M08ruV16/versions/70sKyIMv/bobby-5.2.1%2Bmc1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/M08ruV16/versions/hL2qgP4K/bobby-5.2.3%2Bmc1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/M08ruV16/versions/hL2qgP4K/bobby-5.2.3%2Bmc1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/M08ruV16/versions/8eV5MZGw/bobby-5.2.5%2Bmc1.21.2.jar"
     }
   },
   {
-    "id": "xaerosminimap",
+    "id": "xaeros-minimap",
     "name": "Xaero's Minimap",
     "description" : "Добавляет ванильную миникарту, имеет сомнительные функции, отключенные на сервере ElectroPlay.",
     "hidden": false,
@@ -310,11 +345,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/1bokaNcj/versions/a1aPoO3W/Xaeros_Minimap_24.1.1_Fabric_1.20.4.jar",
       "1.20.5": "https://cdn.modrinth.com/data/1bokaNcj/versions/pfjda4sr/Xaeros_Minimap_24.2.0_Fabric_1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/1bokaNcj/versions/pfjda4sr/Xaeros_Minimap_24.2.0_Fabric_1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/1bokaNcj/versions/X2u4L3vW/Xaeros_Minimap_24.3.0_Fabric_1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/1bokaNcj/versions/X2u4L3vW/Xaeros_Minimap_24.3.0_Fabric_1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/1bokaNcj/versions/YMViFM5s/Xaeros_Minimap_24.7.1_Fabric_1.21.3.jar"
     }
   },
   {
-    "id": "xaerosworldmap",
+    "id": "xaeros-world-map",
     "name": "Xaero's Worldmap",
     "description" : "Добавляет ванильную полноразмерную карту, имеет сомнительные функции, отключенные на сервере ElectroPlay.",
     "hidden": false,
@@ -326,30 +362,29 @@
       "1.20.4": "https://cdn.modrinth.com/data/NcUtCpym/versions/ciwrnpWQ/XaerosWorldMap_1.38.4_Fabric_1.20.4.jar",
       "1.20.5": "https://cdn.modrinth.com/data/NcUtCpym/versions/o7mEAkNb/XaerosWorldMap_1.38.8_Fabric_1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/NcUtCpym/versions/o7mEAkNb/XaerosWorldMap_1.38.8_Fabric_1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/NcUtCpym/versions/ekubtdIk/XaerosWorldMap_1.38.8_Fabric_1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/NcUtCpym/versions/ekubtdIk/XaerosWorldMap_1.38.8_Fabric_1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/NcUtCpym/versions/qsqkUqNm/XaerosWorldMap_1.39.2_Fabric_1.21.3.jar"
     }
   },
   {
-    "id": "ryoamiclights",
-    "name": "RyoamicLights",
+    "id": "dynamic-lights",
+    "name": "DyoamicLights",
     "description" : "Добавляет динамическое освещение для предметов, мобов и тд.",
     "hidden": false,
     "required": false,
     "versions": {
-      "1.20.1": "https://cdn.modrinth.com/data/reCfnRvJ/versions/VTzHz71U/RyoamicLights-fabric-0.2.3%2Bmc1.20.1.jar",
-      "1.20.2": "https://cdn.modrinth.com/data/reCfnRvJ/versions/VTzHz71U/RyoamicLights-fabric-0.2.3%2Bmc1.20.1.jar",
-      "1.20.3": "https://cdn.modrinth.com/data/reCfnRvJ/versions/pg7wiFsB/RyoamicLights-fabric-0.2.5%2Bmc1.20.4.jar",
-      "1.20.4": "https://cdn.modrinth.com/data/reCfnRvJ/versions/pg7wiFsB/RyoamicLights-fabric-0.2.5%2Bmc1.20.4.jar",
-      "1.20.5": "https://cdn.modrinth.com/data/reCfnRvJ/versions/7lXeYdGV/RyoamicLights-fabric-0.2.6%2Bmc1.20.6.jar",
-      "1.20.6": "https://cdn.modrinth.com/data/reCfnRvJ/versions/7lXeYdGV/RyoamicLights-fabric-0.2.6%2Bmc1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/reCfnRvJ/versions/lSVpt79H/RyoamicLights-fabric-0.2.9%2Bmc1.21.jar"
-    },
-    "dependencies": [
-      "obsidianui"
-    ]
+      "1.20.1": "https://cdn.modrinth.com/data/7YjclEGc/versions/quKEFE06/dynamiclights-v1.8.5-mc1.17x-1.21x-mod.jar",
+      "1.20.2": "https://cdn.modrinth.com/data/7YjclEGc/versions/quKEFE06/dynamiclights-v1.8.5-mc1.17x-1.21x-mod.jar",
+      "1.20.3": "https://cdn.modrinth.com/data/7YjclEGc/versions/quKEFE06/dynamiclights-v1.8.5-mc1.17x-1.21x-mod.jar",
+      "1.20.4": "https://cdn.modrinth.com/data/7YjclEGc/versions/quKEFE06/dynamiclights-v1.8.5-mc1.17x-1.21x-mod.jar",
+      "1.20.5": "https://cdn.modrinth.com/data/7YjclEGc/versions/quKEFE06/dynamiclights-v1.8.5-mc1.17x-1.21x-mod.jar",
+      "1.20.6": "https://cdn.modrinth.com/data/7YjclEGc/versions/quKEFE06/dynamiclights-v1.8.5-mc1.17x-1.21x-mod.jar",
+      "1.21": "https://cdn.modrinth.com/data/7YjclEGc/versions/quKEFE06/dynamiclights-v1.8.5-mc1.17x-1.21x-mod.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/7YjclEGc/versions/quKEFE06/dynamiclights-v1.8.5-mc1.17x-1.21x-mod.jar"
+    }
   },
   {
-    "id": "infinitemusic",
+    "id": "infinite-music",
     "name": "Infinite Music",
     "description" : "Убирает паузу между музыкой во время игры, в меню и тд. (настраивается).",
     "hidden": false,
@@ -361,11 +396,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/OJLdOa8k/versions/XECi9LR5/infinite-music-0.3.1.jar",
       "1.20.5": "https://cdn.modrinth.com/data/OJLdOa8k/versions/6DdFF7VG/infinite-music-0.4.2.jar",
       "1.20.6": "https://cdn.modrinth.com/data/OJLdOa8k/versions/6DdFF7VG/infinite-music-0.4.2.jar",
-      "1.21": "https://cdn.modrinth.com/data/OJLdOa8k/versions/zWr0i1Qx/infinite-music-0.4.3.jar"
+      "1.21": "https://cdn.modrinth.com/data/OJLdOa8k/versions/zWr0i1Qx/infinite-music-0.4.3.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/OJLdOa8k/versions/cIfcDLaq/infinite-music-0.4.6.jar"
     }
   },
   {
-    "id": "appleskin",
+    "id": "apple-skin",
     "name": "AppleSkin",
     "description" : "Добавляет визуализацию насыщения поверх полосы голода, информацию о пищевой ценности еды.",
     "hidden": false,
@@ -377,11 +413,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/EsAfCjCV/versions/pmFyu3Sz/appleskin-fabric-mc1.20.3-2.5.1.jar",
       "1.20.5": "https://cdn.modrinth.com/data/EsAfCjCV/versions/FX8a9ln5/appleskin-fabric-mc1.20.5-3.0.2.jar",
       "1.20.6": "https://cdn.modrinth.com/data/EsAfCjCV/versions/FX8a9ln5/appleskin-fabric-mc1.20.5-3.0.2.jar",
-      "1.21": "https://cdn.modrinth.com/data/EsAfCjCV/versions/fG1xJao0/appleskin-fabric-mc1.21-3.0.5.jar"
+      "1.21": "https://cdn.modrinth.com/data/EsAfCjCV/versions/fG1xJao0/appleskin-fabric-mc1.21-3.0.5.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/EsAfCjCV/versions/cHQjeYVS/appleskin-fabric-mc1.21.3-3.0.6.jar"
     }
   },
   {
-    "id": "skinlayers3d",
+    "id": "skin-layers-3d",
     "name": "3D Skin Layers",
     "description" : "Заменяет пиксельный второй слой скинов на воксельный, делая его в 3D.",
     "hidden": false,
@@ -393,11 +430,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/zV5r3pPn/versions/kJmEO0xO/skinlayers3d-fabric-1.6.2-mc1.20.4.jar",
       "1.20.5": "https://cdn.modrinth.com/data/zV5r3pPn/versions/WLODYnWa/skinlayers3d-fabric-1.6.6-mc1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/zV5r3pPn/versions/WLODYnWa/skinlayers3d-fabric-1.6.6-mc1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/zV5r3pPn/versions/h12GehRH/skinlayers3d-fabric-1.6.7-mc1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/zV5r3pPn/versions/h12GehRH/skinlayers3d-fabric-1.6.7-mc1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/zV5r3pPn/versions/HaEoID6C/skinlayers3d-fabric-1.7.4-mc1.21.3.jar"
     }
   },
   {
-    "id": "languagereloaded",
+    "id": "language-reloaded",
     "name": "Language Reload",
     "description" : "Увеличивает скорость смены языка и добавляет другие функции связанные с языком.",
     "hidden": false,
@@ -409,11 +447,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/uLbm7CG6/versions/SSvudGpI/language-reload-1.5.10%2B1.20.3.jar",
       "1.20.5": "https://cdn.modrinth.com/data/uLbm7CG6/versions/v4nL1BsT/language-reload-1.6.1%2B1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/uLbm7CG6/versions/v4nL1BsT/language-reload-1.6.1%2B1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/uLbm7CG6/versions/fpDBBXvT/language-reload-1.6.1%2B1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/uLbm7CG6/versions/fpDBBXvT/language-reload-1.6.1%2B1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/uLbm7CG6/versions/IwVJyyyk/language-reload-1.7.2%2B1.21.3.jar"
     }
   },
   {
-    "id": "shulkerboxtooltip",
+    "id": "shulker-box-tooltip",
     "name": "ShulkerBoxTooltip",
     "description" : "Добавляет окно предвари- тельного просмотра шалкеров, имеет сомни- тельные функции, отключенные на ElectroPlay.",
     "hidden": false,
@@ -425,12 +464,13 @@
       "1.20.4": "https://cdn.modrinth.com/data/2M01OLQq/versions/R23hymvz/shulkerboxtooltip-fabric-4.0.8%2B1.20.4.jar",
       "1.20.5": "https://cdn.modrinth.com/data/2M01OLQq/versions/lrEmpuxH/shulkerboxtooltip-fabric-4.1.3%2B1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/2M01OLQq/versions/lrEmpuxH/shulkerboxtooltip-fabric-4.1.3%2B1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/2M01OLQq/versions/d0SjJDnR/shulkerboxtooltip-fabric-5.0.4%2B1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/2M01OLQq/versions/d0SjJDnR/shulkerboxtooltip-fabric-5.0.4%2B1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/2M01OLQq/versions/PphJdojc/shulkerboxtooltip-fabric-5.2.1%2B1.21.3.jar"
     }
   },
   {
-    "id": "advancementinfo",
-    "name": "AdvancementInfo",
+    "id": "advancement-info-reloaded",
+    "name": "AdvancementInfo Reloaded",
     "description" : "Увеличивает окно достижений и показывает информацию о критериях достижений.",
     "hidden": false,
     "required": false,
@@ -441,11 +481,15 @@
       "1.20.4": "https://cdn.modrinth.com/data/G1epq3jN/versions/gq5isc7f/advancementinfo-1.20.4-fabric0.91.2-1.4.jar",
       "1.20.5": "https://cdn.modrinth.com/data/G1epq3jN/versions/gq5isc7f/advancementinfo-1.20.4-fabric0.91.2-1.4.jar",
       "1.20.6": "https://cdn.modrinth.com/data/G1epq3jN/versions/gq5isc7f/advancementinfo-1.20.4-fabric0.91.2-1.4.jar",
-      "1.21": "https://cdn.modrinth.com/data/tLuRLqpa/versions/KhVS4osN/advancementinforeloaded-0.4.2-1.21.jar"
-    }
+      "1.21": "https://cdn.modrinth.com/data/tLuRLqpa/versions/KhVS4osN/advancementinforeloaded-0.4.2-1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/tLuRLqpa/versions/LO8sNMcg/advancements_reloaded-0.7.0-fabric-1.21.3.jar"
+    },
+    "dependencies": [
+      "cloth-config-api"
+    ]
   },
   {
-    "id": "chatheads",
+    "id": "chat-heads",
     "name": "Chat Heads",
     "description" : "Добавляет отображение голов игроков в чате перед никнеймом.",
     "hidden": false,
@@ -457,7 +501,8 @@
       "1.20.4": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/Hl6rexqr/chat_heads-0.10.32-fabric-1.20.3.jar",
       "1.20.5": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/bKinUmIu/chat_heads-0.12.3-fabric-1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/bKinUmIu/chat_heads-0.12.3-fabric-1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/3xDRgbYA/chat_heads-0.12.13-fabric-1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/3xDRgbYA/chat_heads-0.12.13-fabric-1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/Wb5oqrBJ/versions/AusxLkpx/chat_heads-0.13.7-fabric-1.21.2.jar"
     }
   },
   {
@@ -473,14 +518,15 @@
       "1.20.4": "https://cdn.modrinth.com/data/bEpr0Arc/versions/kiky1zrZ/litematica-fabric-1.20.4-0.17.3.jar",
       "1.20.5": "https://www.dropbox.com/scl/fi/m6knil3vy7w7v1sqndzx9/litematica-fabric-1.20.6-0.18.0.jar?rlkey=5agn857elkcku0yhonuy5z7t0&st=zzfw1mup&dl=1",
       "1.20.6": "https://cdn.modrinth.com/data/bEpr0Arc/versions/yxjsN0Nq/litematica-fabric-1.20.6-0.18.1.jar",
-      "1.21": "https://cdn.modrinth.com/data/bEpr0Arc/versions/5kAmiBye/litematica-fabric-1.21.1-0.19.50.jar"
+      "1.21": "https://cdn.modrinth.com/data/bEpr0Arc/versions/5kAmiBye/litematica-fabric-1.21.1-0.19.50.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/bEpr0Arc/versions/rMmaFtpI/litematica-fabric-1.21.3-0.20.2.jar"
     },
     "dependencies": [
       "malilib"
     ]
   },
   {
-    "id": "clickthrough",
+    "id": "click-through",
     "name": "Click Through",
     "description" : "Позволяет кликать по сундукам, бочкам, эндер-сундукам сквозь рамки и таблички.",
     "hidden": false,
@@ -492,11 +538,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/Z5b0cAlD/versions/7BwF68rg/clickthrough-1.20.4-fabric0.91.2-0.4.1.jar",
       "1.20.5": "https://cdn.modrinth.com/data/Z5b0cAlD/versions/7BwF68rg/clickthrough-1.20.4-fabric0.91.2-0.4.1.jar",
       "1.20.6": "https://cdn.modrinth.com/data/Z5b0cAlD/versions/7BwF68rg/clickthrough-1.20.4-fabric0.91.2-0.4.1.jar",
-      "1.21": "null"
+      "1.21": "null",
+      "1.21.3": "null"
     }
   },
   {
-    "id": "fastquit",
+    "id": "fast-quit",
     "name": "FastQuit",
     "description" : "Позволяет мгновенно выйти из локального мира, в то же время этот мир сохраняется в фоне.",
     "hidden": false,
@@ -508,11 +555,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/x1hIzbuY/versions/vOAKK0JB/fastquit-3.0.0%2B1.20.4.jar",
       "1.20.5": "https://cdn.modrinth.com/data/x1hIzbuY/versions/dIGKewCo/fastquit-3.0.0%2B1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/x1hIzbuY/versions/dIGKewCo/fastquit-3.0.0%2B1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/x1hIzbuY/versions/dIGKewCo/fastquit-3.0.0%2B1.20.6.jar"
+      "1.21": "https://cdn.modrinth.com/data/x1hIzbuY/versions/dIGKewCo/fastquit-3.0.0%2B1.20.6.jar",
+      "1.21.3": "null"
     }
   },
   {
-    "id": "betterstatisticsscreen",
+    "id": "better-statistics-screen",
     "name": "Better Statistics Screen",
     "description" : "Переделывает окно статистики, добавляя больше информации о ней, позволяет фильтровать статистику.",
     "hidden": false,
@@ -524,7 +572,8 @@
       "1.20.4": "https://cdn.modrinth.com/data/x1hIzbuY/versions/vOAKK0JB/fastquit-3.0.0%2B1.20.4.jar",
       "1.20.5": "https://cdn.modrinth.com/data/n6PXGAoM/versions/ZpFQOEiP/betterstats-3.11.3%2Bfabric-1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/n6PXGAoM/versions/ZpFQOEiP/betterstats-3.11.3%2Bfabric-1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/n6PXGAoM/versions/QUR4n7cH/betterstats-3.13.1%2Bfabric-1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/n6PXGAoM/versions/QUR4n7cH/betterstats-3.13.1%2Bfabric-1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/n6PXGAoM/versions/rOCnIAeB/betterstats-3.13.4%2Bfabric-1.21.3.jar"
     },
     "dependencies": [
       "tcd-commons-api"
@@ -543,7 +592,8 @@
       "1.20.4": "https://cdn.modrinth.com/data/BWloQ9jK/versions/GPeTJmd2/stendhal-1.4.1-1.20.2.jar",
       "1.20.5": "https://cdn.modrinth.com/data/BWloQ9jK/versions/RP6Tr3Bo/stendhal-1.4.1-1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/BWloQ9jK/versions/RP6Tr3Bo/stendhal-1.4.1-1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/BWloQ9jK/versions/I3a5043B/stendhal-1.4.1-1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/BWloQ9jK/versions/I3a5043B/stendhal-1.4.1-1.21.jar",
+      "1.21.3": "null"
     }
   },
   {
@@ -559,7 +609,8 @@
       "1.20.4": "https://cdn.modrinth.com/data/1IjD5062/versions/JXhQlDZl/continuity-3.0.0-beta.4%2B1.20.2.jar",
       "1.20.5": "https://cdn.modrinth.com/data/1IjD5062/versions/hI13Vg85/continuity-3.0.0-beta.5%2B1.20.5.jar",
       "1.20.6": "https://cdn.modrinth.com/data/1IjD5062/versions/hI13Vg85/continuity-3.0.0-beta.5%2B1.20.5.jar",
-      "1.21": "https://cdn.modrinth.com/data/1IjD5062/versions/NksUpFjf/continuity-3.0.0-beta.5%2B1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/1IjD5062/versions/NksUpFjf/continuity-3.0.0-beta.5%2B1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/1IjD5062/versions/kwuHTVHC/continuity-3.0.0%2B1.21.3.jar"
     }
   },
   {
@@ -575,11 +626,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/nvQzSEkH/versions/fNHCa6bl/Jade-1.20.4-fabric-13.3.1.jar",
       "1.20.5": "https://cdn.modrinth.com/data/nvQzSEkH/versions/H9wg0p1c/Jade-1.20.6-Fabric-14.2.4.jar",
       "1.20.6": "https://cdn.modrinth.com/data/nvQzSEkH/versions/H9wg0p1c/Jade-1.20.6-Fabric-14.2.4.jar",
-      "1.21": "https://cdn.modrinth.com/data/nvQzSEkH/versions/3ZwcSlCl/Jade-1.21.1-Fabric-15.2.1.jar"
+      "1.21": "https://cdn.modrinth.com/data/nvQzSEkH/versions/3ZwcSlCl/Jade-1.21.1-Fabric-15.2.1.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/nvQzSEkH/versions/pGE7hUKk/Jade-1.21.3-Fabric-16.0.4.jar"
     }
   },
   {
-    "id": "fallingleaves",
+    "id": "falling-leaves",
     "name": "Falling Leaves",
     "description" : "Добавляет маленькие партиклы в виде падающих с блоков листвы листьев.",
     "hidden": false,
@@ -591,14 +643,15 @@
       "1.20.4": "https://cdn.modrinth.com/data/WhbRG4iK/versions/flPXaySR/fallingleaves-1.15.6%2B1.20.1.jar",
       "1.20.5": "https://cdn.modrinth.com/data/WhbRG4iK/versions/5wXruaFu/fallingleaves-1.15.9%2B1.20.5.jar",
       "1.20.6": "https://cdn.modrinth.com/data/WhbRG4iK/versions/5wXruaFu/fallingleaves-1.15.9%2B1.20.5.jar",
-      "1.21": "https://cdn.modrinth.com/data/WhbRG4iK/versions/ue2maFEp/fallingleaves-1.16.2%2B1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/WhbRG4iK/versions/ue2maFEp/fallingleaves-1.16.2%2B1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/WhbRG4iK/versions/TCCuyvLw/fallingleaves-1.16.4%2B1.21.2.jar"
     },
     "dependencies": [
-      "cloth_config_api"
+      "cloth-config-api"
     ]
   },
   {
-    "id": "notenoughanimations",
+    "id": "not-enough-animations",
     "name": "Not Enough Animations",
     "description" : "Добавляет новые анимации от 3 лица тем действиям, анимации которых есть от первого лица.",
     "hidden": false,
@@ -610,11 +663,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/MPCX6s5C/versions/FTJfqF66/notenoughanimations-fabric-1.7.5-mc1.20.4.jar",
       "1.20.5": "https://cdn.modrinth.com/data/MPCX6s5C/versions/9wrknT51/notenoughanimations-fabric-1.7.2-mc1.20.5.jar",
       "1.20.6": "https://cdn.modrinth.com/data/MPCX6s5C/versions/taM3yQeM/notenoughanimations-fabric-1.7.5-mc1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/MPCX6s5C/versions/BQ8qstAV/notenoughanimations-fabric-1.7.5-mc1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/MPCX6s5C/versions/BQ8qstAV/notenoughanimations-fabric-1.7.5-mc1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/MPCX6s5C/versions/25kPRFSz/notenoughanimations-fabric-1.9.0-mc1.21.3.jar"
     }
   },
   {
-    "id": "eatinganimation",
+    "id": "eating-animation",
     "name": "Eating Animation",
     "description" : "Добавляет анимацию поэтапного поедания еды.",
     "hidden": false,
@@ -626,7 +680,8 @@
       "1.20.4": "https://cdn.modrinth.com/data/rUgZvGzi/versions/AqXSvu6M/eating-animation-1.20%2B1.9.61.jar",
       "1.20.5": "null",
       "1.20.6": "https://cdn.modrinth.com/data/rUgZvGzi/versions/bVtVrfh2/eating-animation-1.20.6%2B1.9.7.jar",
-      "1.21": "https://cdn.modrinth.com/data/rUgZvGzi/versions/KWZCioh0/eating-animation-1.21%2B1.9.72.jar"
+      "1.21": "https://cdn.modrinth.com/data/rUgZvGzi/versions/KWZCioh0/eating-animation-1.21%2B1.9.72.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/rUgZvGzi/versions/Mr1c5IWQ/eating-animation-1.21.3%2B1.9.73.jar"
     }
   },
   {
@@ -636,13 +691,152 @@
     "hidden": false,
     "required": false,
     "versions": {
-      "1.20.1": "null",
-      "1.20.2": "null",
-      "1.20.3": "null",
-      "1.20.4": "null",
+      "1.20.1": "https://cdn.modrinth.com/data/NK39zBp2/versions/dki8Ab2D/blur-3.1.0.jar",
+      "1.20.2": "https://cdn.modrinth.com/data/NK39zBp2/versions/qh7RxICc/blur-3.1.1.jar",
+      "1.20.3": "https://cdn.modrinth.com/data/NK39zBp2/versions/zzelzVhK/blur-3.2.0.jar",
+      "1.20.4": "https://cdn.modrinth.com/data/NK39zBp2/versions/zzelzVhK/blur-3.2.0.jar",
       "1.20.5": "https://cdn.modrinth.com/data/NK39zBp2/versions/sKz8uQeX/blur-4.0.0.jar",
       "1.20.6": "https://cdn.modrinth.com/data/NK39zBp2/versions/sKz8uQeX/blur-4.0.0.jar",
-      "1.21": "https://cdn.modrinth.com/data/NK39zBp2/versions/4stUfJpY/blur-4.1.0.jar"
+      "1.21": "https://cdn.modrinth.com/data/NK39zBp2/versions/4stUfJpY/blur-4.1.0.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/NK39zBp2/versions/JWYifdf0/blur-fabric-5.0.1%2B1.21.3.jar"
+    }
+  },
+  {
+    "id": "server-ping-fixer",
+    "name": "Server Ping Fixer",
+    "description" : "Ускоряет обновление списка серверов.",
+    "hidden": false,
+    "required": false,
+    "versions": {
+      "1.20.1": "https://cdn.modrinth.com/data/iqK5uv72/versions/fHvfA2My/serverpingerfixer-1.0.4.jar",
+      "1.20.2": "https://cdn.modrinth.com/data/iqK5uv72/versions/fHvfA2My/serverpingerfixer-1.0.4.jar",
+      "1.20.3": "https://cdn.modrinth.com/data/iqK5uv72/versions/fHvfA2My/serverpingerfixer-1.0.4.jar",
+      "1.20.4": "https://cdn.modrinth.com/data/iqK5uv72/versions/fHvfA2My/serverpingerfixer-1.0.4.jar",
+      "1.20.5": "null",
+      "1.20.6": "null",
+      "1.21": "https://cdn.modrinth.com/data/iqK5uv72/versions/x7vxzThG/serverpingerfixer-1.0.5.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/iqK5uv72/versions/x7vxzThG/serverpingerfixer-1.0.5.jar"
+    }
+  },
+  {
+    "id": "concurrent-chunk-management-engine",
+    "name": "C2ME",
+    "description" : "Ускоряет генерацию чанков за счет многопоточной обработки.",
+    "hidden": false,
+    "required": false,
+    "versions": {
+      "1.20.1": "https://cdn.modrinth.com/data/VSNURh3q/versions/LRL5QAZY/c2me-fabric-mc1.20.1-0.2.0%2Balpha.11.13.jar",
+      "1.20.2": "https://cdn.modrinth.com/data/VSNURh3q/versions/vADXBkQ9/c2me-fabric-mc1.20.2-0.2.0%2Balpha.11.24.jar",
+      "1.20.3": "https://cdn.modrinth.com/data/VSNURh3q/versions/OcowQN8k/c2me-fabric-mc1.20.3-0.2.0%2Balpha.11.36.jar",
+      "1.20.4": "https://cdn.modrinth.com/data/VSNURh3q/versions/1AeveXNt/c2me-fabric-mc1.20.4-0.2.0%2Balpha.11.72.jar",
+      "1.20.5": "https://cdn.modrinth.com/data/VSNURh3q/versions/d3wUETCr/c2me-fabric-mc1.20.5-0.2.0%2Balpha.11.89.jar",
+      "1.20.6": "https://cdn.modrinth.com/data/VSNURh3q/versions/GtzkeTZ3/c2me-fabric-mc1.20.6-0.2.0%2Balpha.11.100.jar",
+      "1.21": "https://cdn.modrinth.com/data/VSNURh3q/versions/fEWDAK3p/c2me-fabric-mc1.21-0.2.0%2Balpha.11.109.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/VSNURh3q/versions/Gs82Xpis/c2me-fabric-mc1.21.3-0.3.1%2Balpha.0.39.jar"
+    }
+  },
+  {
+    "id": "model-gap-fix",
+    "name": "Model Gap Fix",
+    "description" : "Удаляет щели в моделях предметов, блоков и тд.",
+    "hidden": false,
+    "required": false,
+    "versions": {
+      "1.20.1": "https://cdn.modrinth.com/data/QdG47OkI/versions/i0mERlxq/modelfix-1.10-fabric.jar",
+      "1.20.2": "https://cdn.modrinth.com/data/QdG47OkI/versions/i0mERlxq/modelfix-1.10-fabric.jar",
+      "1.20.3": "https://cdn.modrinth.com/data/QdG47OkI/versions/r6uVoUxU/modelfix-1.14-fabric.jar",
+      "1.20.4": "https://cdn.modrinth.com/data/QdG47OkI/versions/r6uVoUxU/modelfix-1.14-fabric.jar",
+      "1.20.5": "null",
+      "1.20.6": "null",
+      "1.21": "https://cdn.modrinth.com/data/QdG47OkI/versions/FUZo6yCk/modelfix-1.21-1.6-fabric.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/QdG47OkI/versions/h47zwBfZ/modelfix-1.21.3-1.10-fabric.jar"
+    }
+  },
+  {
+    "id": "legendary-tooltips",
+    "name": "Legendary Tooltips",
+    "description" : "Изменяет всплывающие подсказки на предметах заменяя предмет на 3D модель, меняя описание и тд.",
+    "hidden": false,
+    "required": false,
+    "versions": {
+      "1.20.1": "https://cdn.modrinth.com/data/atHH8NyV/versions/fvJtXL6i/LegendaryTooltips-1.20.1-fabric-1.4.5.jar",
+      "1.20.2": "https://cdn.modrinth.com/data/atHH8NyV/versions/y08hPXLb/LegendaryTooltips-1.20.2-fabric-1.4.5.jar",
+      "1.20.3": "null",
+      "1.20.4": "https://cdn.modrinth.com/data/atHH8NyV/versions/y08hPXLb/LegendaryTooltips-1.20.2-fabric-1.4.5.jar",
+      "1.20.5": "https://cdn.modrinth.com/data/atHH8NyV/versions/P7o2ppJw/LegendaryTooltips-1.20.6-fabric-1.4.6.jar",
+      "1.20.6": "https://cdn.modrinth.com/data/atHH8NyV/versions/P7o2ppJw/LegendaryTooltips-1.20.6-fabric-1.4.6.jar",
+      "1.21": "https://cdn.modrinth.com/data/atHH8NyV/versions/UTTS7kWE/LegendaryTooltips-1.21-fabric-1.4.11.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/atHH8NyV/versions/jdFR8jX8/LegendaryTooltips-1.21.3-fabric-1.5.0.jar"
+    },
+    "dependencies": [
+      "prism",
+      "iceberg",
+      "forge-config-api-port"
+    ]
+  },
+  {
+    "id": "smooth-scrolling",
+    "name": "Smooth Scrolling",
+    "description" : "Добавляет плавное листание чата, хотбара, инвентаря и тд.",
+    "hidden": false,
+    "required": false,
+    "versions": {
+      "1.20.1": "https://cdn.modrinth.com/data/CllP7wW0/versions/PKx47WfY/smoothscroll-1.8.1-1.20.1-4.jar",
+      "1.20.2": "https://cdn.modrinth.com/data/CllP7wW0/versions/PKx47WfY/smoothscroll-1.8.1-1.20.1-4.jar",
+      "1.20.3": "https://cdn.modrinth.com/data/CllP7wW0/versions/SD7qm6Aq/smoothscroll-2.1.2-1.20.4.jar",
+      "1.20.4": "https://cdn.modrinth.com/data/CllP7wW0/versions/SD7qm6Aq/smoothscroll-2.1.2-1.20.4.jar",
+      "1.20.5": "https://cdn.modrinth.com/data/CllP7wW0/versions/lRTa0Cjc/smoothscroll-2.1.2-1.20.5.jar",
+      "1.20.6": "https://cdn.modrinth.com/data/CllP7wW0/versions/lRTa0Cjc/smoothscroll-2.1.2-1.20.5.jar",
+      "1.21": "https://cdn.modrinth.com/data/CllP7wW0/versions/1HA8AoCS/smoothscroll-2.2.1-1.21.1.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/CllP7wW0/versions/sqlgDc59/smoothscroll-2.2.1-1.21.3.jar"
+    }
+  },
+  {
+    "id": "prism",
+    "name": "Prism",
+    "hidden": true,
+    "required": false,
+    "versions": {
+      "1.20.1": "https://cdn.modrinth.com/data/1OE8wbN0/versions/Fmetb8IP/Prism-1.20.1-fabric-1.0.5.jar",
+      "1.20.2": "https://cdn.modrinth.com/data/1OE8wbN0/versions/Fmetb8IP/Prism-1.20.1-fabric-1.0.5.jar",
+      "1.20.3": "null",
+      "1.20.4": "https://cdn.modrinth.com/data/1OE8wbN0/versions/4PcfwwpA/Prism-1.20.4-fabric-1.0.6.jar",
+      "1.20.5": "https://cdn.modrinth.com/data/1OE8wbN0/versions/8JYabc0K/Prism-1.20.5-fabric-1.0.7.jar",
+      "1.20.6": "https://cdn.modrinth.com/data/1OE8wbN0/versions/8JYabc0K/Prism-1.20.5-fabric-1.0.7.jar",
+      "1.21": "https://cdn.modrinth.com/data/1OE8wbN0/versions/hIejSxjq/Prism-1.21-fabric-1.0.9.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/1OE8wbN0/versions/1ZYdW6Q9/Prism-1.21.3-fabric-1.0.10.jar"
+    }
+  },
+  {
+    "id": "iceberg",
+    "name": "Iceberg",
+    "hidden": true,
+    "required": false,
+    "versions": {
+      "1.20.1": "https://cdn.modrinth.com/data/5faXoLqX/versions/AiO84cp2/Iceberg-1.20.1-fabric-1.1.25.jar",
+      "1.20.2": "https://cdn.modrinth.com/data/5faXoLqX/versions/snRtsUWd/Iceberg-1.20.2-fabric-1.1.18.jar",
+      "1.20.3": "null",
+      "1.20.4": "https://cdn.modrinth.com/data/5faXoLqX/versions/ZioCfzuX/Iceberg-1.20.4-fabric-1.1.18.jar",
+      "1.20.5": "https://cdn.modrinth.com/data/5faXoLqX/versions/on8rI52b/Iceberg-1.20.6-fabric-1.1.22.jar",
+      "1.20.6": "https://cdn.modrinth.com/data/5faXoLqX/versions/xs03Scvd/Iceberg-1.20.6-fabric-1.1.24.jar",
+      "1.21": "https://cdn.modrinth.com/data/5faXoLqX/versions/vmyclz8X/Iceberg-1.21-fabric-1.2.7.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/5faXoLqX/versions/fIjONaYZ/Iceberg-1.21.3-fabric-1.2.10.jar"
+    }
+  },
+  {
+    "id": "forge-config-api-port",
+    "name": "Forge Config API Port",
+    "hidden": true,
+    "required": false,
+    "versions": {
+      "1.20.1": "https://cdn.modrinth.com/data/ohNO6lps/versions/Qs8LaZLo/ForgeConfigAPIPort-v8.0.1-1.20.1-Fabric.jar",
+      "1.20.2": "https://cdn.modrinth.com/data/ohNO6lps/versions/sK1XwxTt/ForgeConfigAPIPort-v20.2.6-1.20.2-Fabric.jar",
+      "1.20.3": "null",
+      "1.20.4": "https://cdn.modrinth.com/data/ohNO6lps/versions/xbVGsTLe/ForgeConfigAPIPort-v20.4.3-1.20.4-Fabric.jar",
+      "1.20.5": "https://cdn.modrinth.com/data/ohNO6lps/versions/xbVGsTLe/ForgeConfigAPIPort-v20.4.3-1.20.4-Fabric.jar",
+      "1.20.6": "https://cdn.modrinth.com/data/ohNO6lps/versions/LDpciQaD/ForgeConfigAPIPort-v20.6.1-1.20.6-Fabric.jar",
+      "1.21": "https://cdn.modrinth.com/data/ohNO6lps/versions/GOreNSW6/ForgeConfigAPIPort-v21.0.8-1.21-Fabric.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/ohNO6lps/versions/DmvpqvAw/ForgeConfigAPIPort-v21.3.3-1.21.3-Fabric.jar"
     }
   },
   {
@@ -657,11 +851,12 @@
       "1.20.4": "https://cdn.modrinth.com/data/GcWjdA9I/versions/kZJWQDi6/malilib-fabric-1.20.4-0.18.1.jar",
       "1.20.5": "https://cdn.modrinth.com/data/GcWjdA9I/versions/QMD2DLj9/malilib-fabric-1.20.6-0.19.0.jar",
       "1.20.6": "https://cdn.modrinth.com/data/GcWjdA9I/versions/QMD2DLj9/malilib-fabric-1.20.6-0.19.0.jar",
-      "1.21": "https://cdn.modrinth.com/data/GcWjdA9I/versions/CQI1MTlR/malilib-fabric-1.21.1-0.21.0.jar"
+      "1.21": "https://cdn.modrinth.com/data/GcWjdA9I/versions/CQI1MTlR/malilib-fabric-1.21.1-0.21.0.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/GcWjdA9I/versions/em3JWRUe/malilib-fabric-1.21.3-0.22.3.jar"
     }
   },
   {
-    "id": "fabric_language_kotlin",
+    "id": "fabric-language-kotlin",
     "name": "Fabric language kotlin",
     "hidden": true,
     "required": false,
@@ -672,7 +867,8 @@
       "1.20.4": "https://cdn.modrinth.com/data/Ha28R6CL/versions/afsFajDC/fabric-language-kotlin-1.11.0%2Bkotlin.2.0.0.jar",
       "1.20.5": "https://cdn.modrinth.com/data/Ha28R6CL/versions/afsFajDC/fabric-language-kotlin-1.11.0%2Bkotlin.2.0.0.jar",
       "1.20.6": "https://cdn.modrinth.com/data/Ha28R6CL/versions/afsFajDC/fabric-language-kotlin-1.11.0%2Bkotlin.2.0.0.jar",
-      "1.21": "https://cdn.modrinth.com/data/Ha28R6CL/versions/FayzGq0c/fabric-language-kotlin-1.12.1%2Bkotlin.2.0.20.jar"
+      "1.21": "https://cdn.modrinth.com/data/Ha28R6CL/versions/FayzGq0c/fabric-language-kotlin-1.12.1%2Bkotlin.2.0.20.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/Ha28R6CL/versions/csX9r2wS/fabric-language-kotlin-1.13.0%2Bkotlin.2.1.0.jar"
     }
   },
   {
@@ -687,22 +883,8 @@
       "1.20.4": "https://cdn.modrinth.com/data/Eldc1g37/versions/6GY5dK6d/tcdcommons-3.9.7%2Bfabric-1.20.4.jar",
       "1.20.5": "https://cdn.modrinth.com/data/Eldc1g37/versions/z9NdJvlY/tcdcommons-3.11.1%2Bfabric-1.20.6.jar",
       "1.20.6": "https://cdn.modrinth.com/data/Eldc1g37/versions/z9NdJvlY/tcdcommons-3.11.1%2Bfabric-1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/Eldc1g37/versions/q0tTf22O/tcdcommons-3.12.3%2Bfabric-1.21.jar"
-    }
-  },
-  {
-    "id": "obsidianui",
-    "name": "Obsidian UI",
-    "hidden": true,
-    "required": false,
-    "versions": {
-      "1.20.1": "https://cdn.modrinth.com/data/E0L8mfJZ/versions/3osMYaKS/ObsidianUI-fabric-0.2.3%2Bmc1.20.1.jar",
-      "1.20.2": "https://cdn.modrinth.com/data/E0L8mfJZ/versions/RqcPdQMq/ObsidianUI-fabric-0.2.1%2Bmc1.20.2.jar",
-      "1.20.3": "https://cdn.modrinth.com/data/E0L8mfJZ/versions/zuzENcAi/obsidianui-fabric-0.2.1%2Bmc1.20.4.jar",
-      "1.20.4": "https://cdn.modrinth.com/data/E0L8mfJZ/versions/zuzENcAi/obsidianui-fabric-0.2.1%2Bmc1.20.4.jar",
-      "1.20.5": "https://cdn.modrinth.com/data/E0L8mfJZ/versions/qdZyR5a1/ObsidianUI-fabric-0.2.6%2Bmc1.20.6.jar",
-      "1.20.6": "https://cdn.modrinth.com/data/E0L8mfJZ/versions/qdZyR5a1/ObsidianUI-fabric-0.2.6%2Bmc1.20.6.jar",
-      "1.21": "https://cdn.modrinth.com/data/E0L8mfJZ/versions/Yt9IWzuL/ObsidianUI-fabric-0.2.7%2Bmc1.21.jar"
+      "1.21": "https://cdn.modrinth.com/data/Eldc1g37/versions/q0tTf22O/tcdcommons-3.12.3%2Bfabric-1.21.jar",
+      "1.21.3": "https://cdn.modrinth.com/data/Eldc1g37/versions/JVU1Wsml/tcdcommons-3.12.5%2Bfabric-1.21.3.jar"
     }
   }
 ]
